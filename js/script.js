@@ -342,7 +342,7 @@ var userFeed = new Instafeed({
     resolution: 'standard_resolution',
     accessToken: '5534344692.1677ed0.1c4be347827a47fcb84c6c4d3ad19e38',
     sortBy: 'most-recent',
-    template: '<div class="col-lg-4 col-xs-4 gallery"><a href="{{link}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
+    template: '<div class="col-lg-4 col-xs-4 gallery"><a href="https://www.behance.net/mfgoes1b6a4" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
 
     after: function () {
         $('.slider.insta').slick({

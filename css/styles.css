@@ -143,6 +143,10 @@ hr {
     text-transform: uppercase;
 }
 
+.title a {
+ color: #ec0a45;   
+}
+
 .title h2 {
     color: #ec0a45;
     margin-bottom: 0;
@@ -1063,7 +1067,7 @@ a:hover {
 .item-img-4 {
     height: 600px;
     width: 100%;
-    background: url('../img/background/30LOGOS.gif') no-repeat center center;
+    background: url('../img/logofolio/devpizza.jpg') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -1109,6 +1113,40 @@ a:hover {
     -webkit-background-size: cover;
     background-size: cover;
 }
+
+.item-img-8 {
+    height: 600px;
+    width: 100%;
+    background: url('../img/background/vault-extra-mockup.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.item-img-8b {
+    height: 600px;
+    width: 100%;
+    background: url('../img/vaultextra/squareblue_drink.png') no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.item-img-9 {
+    height: 600px;
+    width: 100%;
+    background: url('../img/background/behance.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.item-img-10 {
+    height: 600px;
+    width: 100%;
+    background: url('../img/background/ryex.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+
 
 .item-img-map {
     height: 500px;
@@ -1418,6 +1456,21 @@ a:hover {
 .img_bootcamp4 {
     background: url('../img/bootcamp/ipad3.jpg') no-repeat center center;
 }
+
+.img_vault1 {
+    background: url('../img/vaultextra/v6.png') no-repeat center center;
+}
+.img_vault2 {
+    background: url('../img/vaultextra/v5.png') no-repeat center center;
+}
+.img_vault3 {
+    background: url('../img/vaultextra/v4.png') no-repeat center center;
+}
+.img_vault4 {
+    background: url('../img/vaultextra/v2.png') no-repeat center center;
+}
+
+
 
 .img_sales1 {
     background: url('../img/salescompanion/all final prints v2.jpg') no-repeat center center;
