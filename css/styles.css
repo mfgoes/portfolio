@@ -44,14 +44,23 @@ New color: ec0a45 (red)
 
 /*--- Default ---*/
 
+
+@import url("https://fonts.googleapis.com/css?family=Mukta:300,400,500,700|Roboto:300,400,500,700");
+
+@import url("https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700");
+
+@import url("https://fonts.googleapis.com/css?family=Teko:300,400,700");
+
+
 html,
 body {
     height: 100%;
     font-size: 15px;
     line-height: 1.5;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: Merriweather Sans, 'Source Sans Pro', sans-serif;
+    font-weight: 400;
     letter-spacing: 2px;
-    background: #121212;
+    background: #16181a;
     position: relative;
 }
 
@@ -65,8 +74,9 @@ body {
 h1,
 h2,
 h3 {
-    font-family: Source Sans Pro, sans-serif;
+    font-family: Teko, Source Sans Pro, sans-serif;
     margin: 0;
+    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -74,7 +84,7 @@ h3 {
 
 h1 {
     color: white;
-    font-weight: 900;
+    font-weight: 600;
     font-size: 72px;
     line-height: 1.1;
 }
@@ -82,25 +92,26 @@ h1 {
 h2,
 h3 {
     margin-bottom: 35px;
-    letter-spacing: 5px;
+    letter-spacing: 0.1em;
     line-height: 1.1;
     font-weight: 600;
+
 
 }
 
 h4 {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.1em;
 }
 
 h2 {
     font-weight: 700;
-    font-size: 35px;
+    font-size: 40px;
 }
 
 h3 {
-    font-weight: 700;
-    font-size: 35px;
+    font-weight: 600;
+    font-size: 50px;
     color: #fff;
 }
 
@@ -131,9 +142,9 @@ hr {
 
 .title span {
     color: #fff;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 500;
-    margin-bottom: 25px;
+    margin-bottom: 45px;
     text-transform: uppercase;
 }
 
@@ -164,7 +175,7 @@ hr {
 
 .title_white ul.a, .title_white li, .title_white h4 {
      /*list-style-type: circle; */
-     line-height: 1.5;
+     line-height: 2;
      list-style-type: none;
      padding-left: 10px;
 }
@@ -313,11 +324,11 @@ a:hover {
 
 .top-nav {
     padding: 15px 0;
-    background-color: #121212;
+    background-color: #111214;
 }
 
 .nav-open {
-    background-color: #121212;
+    background-color: #111214;
 }
 
 .navbar-brand {
@@ -348,11 +359,16 @@ a:hover {
 .navbar-nav > li > a {
     padding: 0;
     color: #d5d5d5;
+    font-family: Merriweather Sans, Source Sans Pro, sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    font-size: 0.9em;
 }
 
 .navbar-default .navbar-nav > li > a {
     color: #d5d5d5;
     position: relative;
+    font-family: Merriweather Sans, Source Sans Pro, sans-serif;
     line-height: 1.5;
     text-transform: uppercase;
     -webkit-transition: all .3s ease-in-out;
@@ -561,7 +577,7 @@ a:hover {
 .slideshow {
     position: relative;
     color: #ffffff;
-    background-color: #121212;
+    background-color: #16181a;
     overflow: hidden;
     height: 100vh;
     min-height: 400px;
@@ -707,7 +723,7 @@ a:hover {
 }
 
 .slide-img:before {
-    background-color: #121212;
+    background-color: #16181a;
 }
 
 .slide-img.item-1:before {
@@ -911,7 +927,7 @@ a:hover {
 .streak-item-img-1 {
     height: 620px;
     width: 100%;
-    background: url('http://via.placeholder.com/1920x1080/ec0a45/121212') no-repeat center center;
+    background: url('http://via.placeholder.com/1920x1080/ec0a45/16181a') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -927,7 +943,7 @@ a:hover {
 .streak-item-img-3 {
     height: 620px;
     width: 100%;
-    background: url('http://via.placeholder.com/1920x1080/ec0a45/121212') no-repeat center center;
+    background: url('http://via.placeholder.com/1920x1080/ec0a45/16181a') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -935,7 +951,7 @@ a:hover {
 .streak-item-img-4 {
     height: 620px;
     width: 100%;
-    background: url('http://via.placeholder.com/1920x1080/ec0a45/121212') no-repeat center center;
+    background: url('http://via.placeholder.com/1920x1080/ec0a45/16181a') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -943,7 +959,7 @@ a:hover {
 .streak-item-img-5 {
     height: 620px;
     width: 100%;
-    background: url('http://via.placeholder.com/1920x1080/ec0a45/121212') no-repeat center center;
+    background: url('http://via.placeholder.com/1920x1080/ec0a45/16181a') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -951,7 +967,7 @@ a:hover {
 .streak-item-img-6 {
     height: 620px;
     width: 100%;
-    background: url('http://via.placeholder.com/1920x1080/ec0a45/121212') no-repeat center center;
+    background: url('http://via.placeholder.com/1920x1080/ec0a45/16181a') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -967,7 +983,7 @@ a:hover {
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: rgba(25, 25, 25, .7);
+    background-color: rgba(25, 25, 25, .5);
     opacity: 0;
     -webkit-transition: all .6s ease-in-out;
     -o-transition: all .6s ease-in-out;
@@ -1201,7 +1217,7 @@ a:hover {
 
 .item-text h2, h3 {
     margin: 0;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .scroll .view-more {
@@ -1243,7 +1259,7 @@ a:hover {
     .item-text h2, h3 {
         margin: 0px;
         visibility: inline;
-        text-decoration: underline;
+        text-decoration: none;
     }
 
     .item-text {
@@ -1282,6 +1298,12 @@ a:hover {
     color: #d5d5d5;
     position: relative;
     line-height: 1.5;
+
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    font-size: 0.9em;
+    font-family: Source Sans Pro, sans-serif;
+    
     text-transform: uppercase;
     margin: 0 25px 0 0;
     display: inline-block;
@@ -1371,7 +1393,7 @@ a:hover {
     top: 0;
     height: 100%;
     width: 100%;
-    background: url('http://via.placeholder.com/1920x1080/ec0a45/121212') no-repeat center center;
+    background: url('http://via.placeholder.com/1920x1080/ec0a45/16181a') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
     text-align: center;
@@ -1542,7 +1564,7 @@ a:hover {
 .post-img-2 {
     height: 250px;
     width: 100%;
-    background: url('http://via.placeholder.com/370x250/ec0a45/121212') no-repeat center center;
+    background: url('http://via.placeholder.com/370x250/ec0a45/16181a') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
     -webkit-transition: opacity .3s ease-in-out;
@@ -1553,7 +1575,7 @@ a:hover {
 .post-img-3 {
     height: 250px;
     width: 100%;
-    background: url('http://via.placeholder.com/370x250/ec0a45/121212') no-repeat center center;
+    background: url('http://via.placeholder.com/370x250/ec0a45/16181a') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
     -webkit-transition: opacity .3s ease-in-out;
@@ -1612,7 +1634,7 @@ a:hover {
 .about-studio .title {
     text-align: left;
     position: absolute;
-    top: 50%;
+    top: 60%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
@@ -1622,6 +1644,7 @@ a:hover {
 
 .about-studio .title span {
     color: #d5d5d5;
+
 }
 
 .about-studio .title h1 {
@@ -1698,7 +1721,7 @@ a:hover {
 .team-img-1 {
     height: 470px;
     width: 100%;
-    background: url('http://via.placeholder.com/370x470/ec0a45/121212') no-repeat center center;
+    background: url('http://via.placeholder.com/370x470/ec0a45/16181a') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -1706,7 +1729,7 @@ a:hover {
 .team-img-2 {
     height: 470px;
     width: 100%;
-    background: url('http://via.placeholder.com/370x470/ec0a45/121212') no-repeat center center;
+    background: url('http://via.placeholder.com/370x470/ec0a45/16181a') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -1714,7 +1737,7 @@ a:hover {
 .team-img-3 {
     height: 470px;
     width: 100%;
-    background: url('http://via.placeholder.com/370x470/ec0a45/121212') no-repeat center center;
+    background: url('http://via.placeholder.com/370x470/ec0a45/16181a') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -1871,8 +1894,9 @@ a:hover {
 }
 
 .resume-text {
-    padding: 60px;
-    background: #191919;
+    padding: 0px;
+    padding-left: 60px;
+    background: transparent;
 }
 
 .resume-text .title {
@@ -2001,7 +2025,7 @@ a:hover {
 .blog-item-img-1 {
     height: 450px;
     width: 100%;
-    background: url('http://via.placeholder.com/1920x1080/ec0a45/121212') no-repeat center center;
+    background: url('http://via.placeholder.com/1920x1080/ec0a45/16181a') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -2017,7 +2041,7 @@ a:hover {
 .blog-item-img-3 {
     height: 450px;
     width: 100%;
-    background: url('http://via.placeholder.com/1920x1080/ec0a45/121212') no-repeat center center;
+    background: url('http://via.placeholder.com/1920x1080/ec0a45/16181a') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -2125,7 +2149,7 @@ input[type="text"] {
 }
 
 input:-webkit-autofill {
-    -webkit-box-shadow: 0 0 0 30px #121212 inset;
+    -webkit-box-shadow: 0 0 0 30px #16181a inset;
     -webkit-text-fill-color: #fff !important;
 }
 
@@ -2259,7 +2283,7 @@ input:-webkit-autofill {
     top: 0;
     height: 100%;
     width: 100%;
-    background: url('http://via.placeholder.com/1920x1080/ec0a45/121212') no-repeat center center;
+    background: url('http://via.placeholder.com/1920x1080/ec0a45/16181a') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
     text-align: center;
@@ -2287,7 +2311,7 @@ blockquote {
 .blog-post-img-1 {
     height: 250px;
     width: 100%;
-    background: url('http://via.placeholder.com/370x250/ec0a45/121212') no-repeat center center;
+    background: url('http://via.placeholder.com/370x250/ec0a45/16181a') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
     text-align: center;
@@ -2299,7 +2323,7 @@ blockquote {
 .blog-post-img-2 {
     height: 250px;
     width: 100%;
-    background: url('http://via.placeholder.com/370x250/ec0a45/121212') no-repeat center center;
+    background: url('http://via.placeholder.com/370x250/ec0a45/16181a') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
     text-align: center;
@@ -2747,7 +2771,8 @@ footer .social,
     /* About Resume*/
     /* About Resume*/
     .resume-text {
-        padding: 40px;
+        padding: 0px;
+        padding-left: 60px;
     }
 
 
@@ -2760,7 +2785,7 @@ footer .social,
     }
     /* streak */
     .item-text h2 {
-        font-size: 22px;
+        font-size: 27px;
     }
 
     /* Star Row Right*/
@@ -2837,6 +2862,11 @@ footer .social,
     .item-text h2 {
         font-size: 18px;
     }
+
+    h3 {
+        font-size: 33px;
+        
+    }
     .navbar-brand {
         padding-top: 0px;
         height: 43px;
@@ -2855,7 +2885,7 @@ footer .social,
         font-size: 40px;
     }
     h2 {
-        font-size: 22px;
+        font-size: 28px;
     }
     /* Title */
     .title span {
@@ -2886,7 +2916,7 @@ footer .social,
         position: fixed;
         max-height: none;
         height: 100% !important;
-        background-color: #121212;
+        background-color: #16181a;
         -webkit-transition: .5s;
         transition: .5s;
         -webkit-box-shadow: none;
@@ -2908,7 +2938,7 @@ footer .social,
     }
     .navbar-nav > li > a {
         font-size: 20px;
-        font-weight: 900;
+        font-weight: 700;
     }
     .navbar-nav .open .dropdown-menu > li > a {
         line-height: 1.5;
