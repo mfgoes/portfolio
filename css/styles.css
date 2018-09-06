@@ -1048,6 +1048,14 @@ a:hover {
     background-size: cover;
 }
 
+.item-img-1b {
+    height: 600px;
+    width: 100%;
+    background: url('../img/background/travpro thumbb.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
 .item-img-2b {
     min-height: 600px;
     width: 100%;
@@ -1113,6 +1121,15 @@ a:hover {
     -webkit-background-size: cover;
     background-size: cover;
 }
+
+.item-img-7b {
+    height: 600px;
+    width: 100%;
+    background: url('../img/background/bannerbootcamp.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
 
 .item-img-8 {
     height: 600px;
