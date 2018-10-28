@@ -323,7 +323,7 @@ a:hover {
 }
 
 .top-nav {
-    padding: 15px 0;
+    padding: 8px 0;
     background-color: #16181a;
 }
 
@@ -348,8 +348,9 @@ a:hover {
 }
 
 .navbar-nav > li {
-    margin-right: 25px;
+    margin-right: 35px;
     padding: 20px 0;
+    padding-top: 22px;
 }
 
 .navbar-nav > li:last-child {
@@ -568,6 +569,7 @@ a:hover {
     border-top: 0px solid transparent;
     -webkit-box-shadow: none;
     box-shadow: none;
+    margin-top: 4px;
 }
 
 /*--- End Navbar ---*/
