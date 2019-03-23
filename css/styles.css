@@ -1103,6 +1103,28 @@ a:hover {
     background-size: cover;
 }
 
+.item-img-3b {
+    height: 600px;
+    width: 100%;
+    background: url('../img/background/TeamMotivation.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.item-img-3c {
+    height: 600px;
+    width: 100%;
+    background: url('../img/background/Pixel Art Collection.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.item-img-3d {
+    height: 600px;
+    width: 100%;
+    background: url('../img/background/motivation2.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
 .item-img-4 {
     height: 600px;
     width: 100%;
