@@ -18,6 +18,7 @@ New color: ec0a45 (red)
     01.7 Bottns
     01.8 Social
     01.9 Lightbox
+    01.10 Grain
 02  Navbar
 03. Page Slideshow
 04. Page Streak
@@ -304,6 +305,18 @@ a:hover {
 
 .lb-nav a.lb-next {
     background: url(../img/lightbox/next.png) right 48% no-repeat;
+}
+
+/* Grain */
+#gradientcontainer > * 
+{ 
+    position:relative;
+    overflow:hidden;
+}
+
+.maxwidth {
+    background-color: powderblue;
+    max-width: 1000px;
 }
 
 /*--- 02.Start Navbar ---*/

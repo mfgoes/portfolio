@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords" content="business, creative, modern, portfolio, agency, design, personal, about, resume, studio, blog">
-    <meta name="author" content="Mischa van der Goes">
+    <meta name="keywords" content="design, creative, portfolio, design, personal, webdevelopment, netherlands, amsterdam">
+    <meta name="author" content="Mischa vd Goes">
     <title>Porfolio | Mischa</title>
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -29,6 +29,9 @@
     <meta name="msapplication-TileImage" content="img/favicons/favicon.png">
     <meta name="msapplication-config" content="img/favicons/browserconfig.xml">
     <meta name="theme-color" content="#5d5d5d">
+
+    <!--Aesthetic scripts -->
+    <script src="js/grained.js"></script> <!--Tv grain effect for images -->
 
     <!--[if lt IE 9]>
      <script src="js/html5shiv.min.js"></script>
@@ -92,9 +95,7 @@
         </div>
     </header>
     <!-- End Header -->
-
-        
-
+            
     <!-- Start Grid -->
     <section id="grid">
         <div class="container">
@@ -139,6 +140,30 @@
                     
 
 
+                    
+
+
+            <!-- Start Items 1 -->
+                    <div class="item-grid Branding Web col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="item grid_responsive">
+                            <div class="aspect-ratio-box-inside">
+                                <div class="item-img-2" id="gradientcontainer">
+                                    <div class="item-overlay"></div>
+                                    <a href = "bootcamp.html"></a>
+                                    <div class='grained'></div>
+                                </div>
+                                <div class="item-text">
+                                    <p>UX / UI, Branding, Graphic Design</p>
+                                    <a href = "bootcamp.html"><h3>Social Bootcamp</h3></a>
+                                    <a class="btn-main" href="bootcamp.html">open project</a>
+                                </div>
+
+                            </div>
+                                
+                            
+                        </div>
+                    </div>
+                    <!-- End Items 1 -->
                     <!-- Start Items A -->
                     <div class="item-grid Web col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="item grid_responsive">
@@ -160,28 +185,6 @@
                         </div>
                     </div>
 
-                    <!-- Start Items 1 -->
-                    <div class="item-grid Branding Web col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="item grid_responsive">
-                            <div class="aspect-ratio-box-inside">
-                            
-                                <div class="item-img-2">
-                                    <a href = "bootcamp.html">
-                                        <div class="item-overlay"></div>
-                                    </a>
-                                </div>
-                                <div class="item-text">
-                                    <p>UX / UI, Branding, Graphic Design</p>
-                                    <a href = "bootcamp.html"><h3>Sales Companion</h3></a>
-                                    <a class="btn-main" href="bootcamp.html">open project</a>
-                                </div>
-
-                            </div>
-                                
-                            
-                        </div>
-                    </div>
-                    <!-- End Items 1 -->
                     <!-- Start Items 2 -->
                     <div class="item-grid Branding Web col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="item">
@@ -386,27 +389,27 @@
 	<!-- Place this tag right after the last button or just before your close body tag. -->
 	<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
 	<script src="js/jquery.hover3d.js" ></script>
+    <script>
+    {
+         var options = {
+             animate: true,
+             patternWidth: 200,
+             patternHeight: 200,
+             grainOpacity: 0.081,
+             grainDensity: 0.7,
+             grainWidth: 1,
+             grainHeight: 1
+        };
+     // components initialized on the element defined by selector
+        grained('#gradientcontainer',options)
+    }
+    </script>
 
-	<script>
-		$(document).ready(function(){
-			$(".project").hover3d({
-				selector: ".project__card"
-			});
-
-			$(".movie").hover3d({
-				selector: ".movie__card",
-				shine: true,
-				sensitivity: 20,
-			});
-		});
-
-	</script>
-
-	<!--3D HOVER EFFECT SCRIPTS END -->
-
-    <script type="text/javascript" src="js/instafeed.min.js"></script>
+	<script type="text/javascript" src="js/instafeed.min.js"></script>
     <script type="text/javascript" src="js/slick.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
+
+    
 
 
 
