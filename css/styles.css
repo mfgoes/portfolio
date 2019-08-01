@@ -12,7 +12,7 @@ New color: ec0a45 (red)
     01.1 HTML, Body
     01.2 H1, H2, H3 P
     01.3 Title
-    01.4 Header
+    01.4 Header + About Header
     01.5 Section Padding
     01.6 Selection
     01.7 Bottns
@@ -172,6 +172,7 @@ hr {
 .title_white p, .title_white ul.a{
     color: #e9e9e9;
     font-weight: 300;
+
 }
 
 .title_white ul.a, .title_white li, .title_white h4 {
@@ -197,6 +198,14 @@ header {
     height: auto;
 }
 
+.header-intro, .header-intro h2 {
+    padding: 100px 0 0px;
+    text-align: center;
+    height: auto;
+    text-transform: none;
+    font-family: Merriweather Sans, Source Sans Pro, sans-serif;
+    line-height: 1.2;
+}
 a:hover {
     color: #ec0a45;
     text-decoration: none;
@@ -205,6 +214,10 @@ a:hover {
 
 .section-padding {
     padding: 50px 0;
+}
+
+.section-padding-top {
+    padding-top: 80px;
 }
 
 /* Selection */
@@ -1895,7 +1908,7 @@ a:hover {
     width: 30vw;
     min-height: 240px; 
     min-width: 240px; 
-    background: url('../img/mischa.jpg') no-repeat center center;
+    background: url('../img/mischa2019.jpg') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
     text-align: center;

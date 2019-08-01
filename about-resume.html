@@ -42,9 +42,8 @@
     <style>
     	#button{
             color:#f7f7f7;
-            font-family: verdana;
             width: 190px;
-            padding: 15px;
+            padding: 10px;
             border: 1px solid #f7f7f7;
             text-align: center;
             position: absolute;
@@ -52,7 +51,9 @@
             left: 50%;
             transform: translate(-50%,-50%);
             overflow: hidden;
-            transition: .5s;
+            transition: .2s;
+            border-radius: 30px;
+            margin-top: 10px;
         }
 
         #button a{
@@ -66,13 +67,15 @@
             left: -10%;
             bottom: 0;
             background-color: #ec0a45;
-            transform: skewX(15deg);
+            transform: skewX(45deg);
             z-index: -1;
-            transition: .5s;
+            transition: .2s;
         }
         #button:hover{
             cursor: pointer;
             color:#ec0a45;
+            border: 1px solid #ec0a45;
+            
         }
 
         #button:hover:after{
@@ -133,7 +136,7 @@
             <div class="title"> 
                 <div class="container">
                 
-                <h1>Resumé 2018</h1>
+                <h1>About Me</h1>
                 
             </div>
                 <!--<span>Mischa van der Goes</span>-->
@@ -149,23 +152,19 @@
         <div class="container">
             <div class="row">
                 <!-- Start End Resume Img -->
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 no-padding resume-padding-img">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                     <div class="resume-img"></div>
                 </div>
                 <!-- End Resume Img -->
                 <!-- Start Resume Text -->
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 no-padding resume-top resume-padding-text">
                     <div class="resume-text">
-                        <div class="title_white">
-                            
-                            <h2>Who am I?</h2>
-                        </div>
                         <div class="p-text title_white">
-                            <p>My interest lies in user experience and design strategy. This means creating innovative solutions for brands and people: I believe in deeply understanding the client foundation and aspirations in order to create meaningful results with a lasting impact. Over the past decade my
-							projects have been incorporated by a range of businesses in various contries. </p>
-                            <p>I love working in diverse teams and consider myself a jack of many trades. I am passionate about web and interactive applications and enjoy creating prototypes to quickly test out ideas.</p>
+                            <h2>Who am I?</h2>
+                            <p>My interest lies in brand and web design. Over the past decade my
+							projects have been incorporated by a range of businesses in various contries.I love working in diverse teams and consider myself a jack of many trades. I am passionate about web and interactive applications and enjoy creating prototypes to quickly test out ideas.</p>
                             <p>
-                            <a href="img/CV Mischa 2018.pdf"><div id="button">Download CV</div></a>
+                            <a href="img/CV 2019 Mischa c.pdf"><div id="button">Download CV</div></a>
                         </p>
                         </div>
 
@@ -179,253 +178,6 @@
         </div>
     </section>
 
-    <!-- Start hr -->
-    <div class="container">
-        <hr> </hr>
-
-    <!-- Start Post Content Text -->
-         <div class="post-content-text">
-            <!-- Title -->
-            
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 title_white">
-                <h2>What I do</h2>                        
-            </div>
-            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 title_white">
-                <ul class="a">
-                  <li>Branding and identity</li>
-                  <li>Design for print and packaging</li>
-                  <li>Web and App design</li>
-                  <li>Develop games
-                </ul>
-            </div>
-        </div>
-        
-        <hr> </hr>
-        
-    <!-- Start Education Text -->
-        <div class="post-content-text">
-            <!-- Title -->
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 title_white">
-                <h2>Education</h2>                        
-            </div>
-            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 title_white">
-                
-                <h4>Bachelor in Communication, Multimedia & Design</h4>
-                
-                <ul class="a">
-                  <li>Avans Hogeschool in ‘s-Hertogenbosch</li>
-                  <li>2014-2018</li>
-                </ul>
-                
-                
-                <h4>Design Academy Eindhoven (Unfinished) </h4>
-                <ul class="a">
-                    <li>Eindhoven</li>
-                    <li>2013-2014</li>
-                </ul>
-                <h4>International High School Diploma</h4>
-                <ul class="a"> 
-                    <li>American School of Yaoundé </li>
-                    <li>2012</li>
-                </ul>
-            </div>
-        </div>
-        
-        <hr> </hr>
-
-    <!-- Tools -->
-        <div class="post-content-text my-skills"">
-            <!-- Title -->
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 title_white">
-                <h2>Tools</h2>                        
-            </div>
-            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 title_white">
-                <h4>Adobe</h4>
-                <ul class="a">
-                    <li>Photoshop</li>
-                    <li>Illustrator</li>
-                    <li>Indesign</li>
-                    <li>After Effects
-                    <li>Dimension (Basics)</li>
-                    <li>Premiere (Basics)</li>
-                </ul>
-                <h4>Other Tools</h4>
-                <ul class="a">
-                    <li>Sketch (Basics)</li>
-                    <li>InvisionApp (Basics)</li>
-                    <li>MarvelApp </li>
-                    <li>Origami Studio (Basics) </li>
-                    <li>Github</li>
-                    <li>SourceTree</li>
-                    <li>Trello</li>
-                </ul>
-                <h4>Programming</h4>
-                <ul class="a">
-                    <li>Front end development: HTML, CSS, JS (Basics)</li>
-                    <li>C# for games using Unity (Basics)</li>
-                    <li>GML for games using GMS (Intermediate) </li>
-                </ul>
-
-            </div>
-        </div>
-        
-        <hr> </hr>
-
-    <!-- Soft Skills -->
-        <div class="post-content-text">
-            <!-- Title -->
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 title_white">
-                <h2>Soft Skills</h2>   
-            </div>   
-            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 title_white">                  
-                <ul class="a">
-                    <li>Honest and communicative</li>
-                    <li>Fast learner</li>
-                    <li>Adaptable to new situations</li>
-                    <li>Loves working both in a team or independently</li>
-                    <li>Works well under stress</li>
-                    <li>Iterates ideas quickly </li>
-                    <li>Dissects problems from different perspectives and advances solutions</li>
-
-                </ul>
-            </div>
-        </div>
-        
-        <hr> </hr>
-
-    <!-- Languages -->
-        <div class="post-content-text">
-            <!-- Title -->
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 title_white">
-                <h2>Languages</h2>   
-            </div>   
-            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 title_white">                  
-                <ul class="a">
-                    <li>English (fluent)</li>
-                    <li>Dutch (fluent)</li>
-                    <li>French (basics)</li>
-                </ul>
-            </div>
-        </div>
-        
-        <hr> </hr>
-
-    <!-- Experience -->
-        <div class="post-content-text">
-            <!-- Title -->
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 title_white">
-                <h2>Experience</h2>                        
-            </div>
-            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 title_white">
-                <h4 class="title_red">2018</h4>
-                <h4>Social Bootcamp | Branding and Website</h4>
-                <ul class="a">
-                    <li class=>June - August 2018</li>
-                    <li>Creating a brand from the ground up, including logo and visual presentation</li>
-                </ul>
-                <h4>TravPro Mobile | UX / UI Design Internship</h4>
-                <ul class="a">
-                    <li>February - June 2018 (6 months)</li>
-                    <li>Reinventing a sales platform and improving the user experience while quickening production process for developers</li>
-                </ul>
-                <h4>Wallpimper | Scouting and Connecting businesses</h4>
-                <ul class="a">
-                    <li>September 2017- January 2018</li>
-                    <li>Connecting a dutch wall print company with popular Thai artists to help expand their business and product line.</li>
-                </ul>
-                <h4>HvA promotional banners | Graphic Design</h4>
-                <ul class="a">
-                    <li>February 2018</li>
-                    <li>Designing promotional banners for a course at the HvA</li>
-                </ul>
-                <h4 class="title_red">2017</h4>
-                <h4>Garden Cottage | Business Cards</h4>
-                <ul class="a">
-                    <li>November 2017</li>
-                    <li>Creating business cards according to client wishes</li>
-                </ul>
-                <h4>Design Internship at Mattmo | Packaging & Branding</h4>
-                <ul class="a">
-                    <li>2016-2017 (6 months)</li>
-                    <li>Packaging design, concepting for a spatial exposition, designing websites, magazines, business cards, flyers, newspaper and more.</li>
-                </ul>
-                <h4 class="title_red">2016</h4>
-                <h4>Triple C | Branding and Identity</h4>
-                <ul class="a">
-                    <li>August 2016</li>
-                    <li>Creating a corporate brand including logos and business cards</li>
-                </ul>
-                <h4>Coded Universe | 2D Game animations and artwork</h4>
-                <ul class="a">
-                    <li>2016 and earlier</li>
-                    <li>Animating premade artwork using Spine</li>
-                </ul>
-                <h4>Earth Overclocked (Game) | Pixel artist, UI designer, graphic designer</h4>
-                <ul class="a">
-                    <li>2015</li>
-                    <li>Made a PC game with a small team and published it on Steam</li>
-                </ul>
-                <h4>Accessible Energy | Branding and Identity</h4>
-                <ul class="a">
-                    <li>2015 and earlier</li>
-                    <li>Designed Business cards and a logo</li>
-                </ul>
-                <h4>Poppodium De Meester | Graphic Design</h4>
-                <ul class="a">
-                    <li>2012-2013</li>
-                    <li>Worked as a part time graphic designer for posters and flyers</li>
-                </ul>
-            </div>
-        </div>
-        
-        <hr> </hr>
-    <!-- Hobbies -->
-        <div class="post-content-text">
-            <!-- Title -->
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 title_white">
-                <h2>Hobbies</h2>   
-            </div>   
-            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 title_white">                  
-                <ul class="a">
-                    <li>Literature about development, business, psychology and more</li>
-                    <li>YouTube</li>
-                    <li>Discussing and learning about major world topics</li>
-                </ul>
-            </div>
-        </div>
-        
-        <hr> </hr>
-
-    <!-- Personal -->
-        <div class="post-content-text">
-            <!-- Title -->
-            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 title_white">
-                <h2>Personal Information</h2>   
-            </div>   
-            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 title_white">                  
-                <ul class="a">
-                    <!--<li>24 years old</li>-->
-                    <li>Nationality: Dutch</li>
-                    <li>Location: Amsterdam</li>
-                </ul>
-            </div>
-        </div>
-        
-        <hr> </hr>
-
-    </div>
-   
-    <!-- Start Instagram Feed -->
-    <div class="instagram-feed section-padding">
-        <div class="container">
-            <div class="title">
-                <p>See more of my work on Behance</p>
-                <h3 class = "instagram_title" style="margin-bottom: 30px;"><a href="https://www.behance.net/mfgoes1b6a4">See more</a></h3>
-            </div>
-            <div id="instafeed" class="slider insta"></div>
-        </div>
-    </div>
-    <!-- End Instagram Feed -->
     
     <!-- Start Scroll Top -->
     <div class="scroll-top ">
@@ -440,17 +192,18 @@
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="about-footer">
                         <img src="img/logo/logocircle.svg" alt="logo">
-                        <p>CONTACT ME: +0654753878 <br> mischvdgoes@gmail.com</p>
+                        <p>CONTACT ME: <br> mischvdgoes@gmail.com</p>
                     </div>
                 </div>
                 <!-- Social -->
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="social">
                         <ul>
+                            <li><a href="behance.net/mfgoes"><i class="fab fa-behance"></i></a></li>
                             <li><a href="https://twitter.com/mischavdg"><i class="fab fa-twitter"></i></a></li>
                             <li><a href="https://www.instagram.com/mvdgdes/"><i class="fab fa-instagram"></i></a></li>
                             <li><a href="https://github.com/mfgoes"><i class="fab fa-github"></i></a></li>
-                            <li><a href="https://www.behance.net/mfgoes1b6a4"><i class="fab fa-behance"></i></a></li>
+                            
                             
                         </ul>
                     </div>
@@ -458,7 +211,7 @@
                 <!-- Copy -->
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="copy">
-                        <p>Mischa van der Goes 2018. <br>All rights reserved</p>
+                        <p>Mischa van der Goes 2019 <br>All rights reserved</p>
                     </div>
                 </div>
             </div>
