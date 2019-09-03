@@ -46,11 +46,11 @@ New color: ec0a45 (red)
 /*--- Default ---*/
 
 
-@import url("https://fonts.googleapis.com/css?family=Mukta:300,400,500,700|Roboto:300,400,500,700");
-
 @import url("https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700");
 
 @import url("https://fonts.googleapis.com/css?family=Teko:300,400,700");
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 
 
 html,
@@ -58,15 +58,14 @@ body {
     height: 100%;
     font-size: 15px;
     line-height: 1.5;
-    font-family: Merriweather Sans, 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', Merriweather Sans, 'Source Sans Pro', sans-serif;
     font-weight: 400;
-    letter-spacing: 2px;
     background: #16181a;
     position: relative;
 }
 
 .body-white {
-    background: #f5f5f5;
+    background: #fff;
 }
 
 
@@ -75,39 +74,33 @@ body {
 h1,
 h2,
 h3 {
-    font-family: Teko, Source Sans Pro, sans-serif;
+    font-family: Open Sans, Source Sans Pro, sans-serif;
     margin: 0;
     font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
+    line-height: 1.1;
+    letter-spacing: 0.07em;
 }
 
 h1 {
     color: white;
     font-weight: 600;
     font-size: 72px;
-    line-height: 1.1;
+    line-height: 1.2;
 }
 
 h2,
 h3 {
-    margin-bottom: 35px;
-    letter-spacing: 0.1em;
-    line-height: 1.1;
+    margin-bottom: 30px;
+    letter-spacing: 0.07em;
+    line-height: 1.3;
     font-weight: 600;
-
-
 }
 
-h4 {
-    font-weight: 400;
-    font-size: 1.1em;
-}
 
 h2 {
+    margin-bottom: 10px;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 1.3em;
 }
 
 h3 {
@@ -120,6 +113,11 @@ h3.instagram_title {
     color: #ec0a45;
 }
 
+h4 {
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
 p {
     margin: 0;
     color: #59595b;
@@ -127,6 +125,17 @@ p {
 }
 .subtitle p{
     color: #ec0a45;
+}
+
+a{
+    color: #ec0a45;
+    -webkit-transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+a:hover {
+    color: grey;
+    cursor: pointer;
 }
 
 hr {
@@ -164,11 +173,17 @@ hr {
     margin-bottom: 0;
 }
 
-.title_white {
+.title_white h2{
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 10vh;
     text-align: left;
+    font-size: 2em;
+    letter-spacing: 0.08em;
+    padding-bottom: 10vh;
+
 }
+
+
 .title_white p, .title_white ul.a{
     color: #e9e9e9;
     font-weight: 300;
@@ -185,7 +200,17 @@ hr {
     color: #ec0a45;
 }
 
+.title_black {
+    color: #1F1F1F;
+    font-size: 2.2em;
+    letter-spacing: 0.04em;
+}
 
+.title_grey {
+    color: #818181;
+    font-size: 2.2em;
+    letter-spacing: 0.04em;
+}
 
 header {
     position: relative;
@@ -234,33 +259,62 @@ a:hover {
     background: #b50a45;
 }
 
-/* Bottns */
+/* Buttons */
 
-.btn-main,
-.form-submit {
+
+.btn-main, .form-submit {
     color: #fff;
     position: relative;
-    margin-top: 40px;
-    display: inline-block;
+    padding-
+    margin-top: 30px;
     text-transform: uppercase;
-    -webkit-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+    display: inline-block;
+    -webkit-transition: all .1s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
 }
+
+.btn-main {
+     margin-top: 20px;
+     text-transform: uppercase;
+     text-shadow:0px 1px 0px #2f662744;
+     cursor:pointer;
+     letter-spacing: 0.1em;
+}
+
+.red {
+    color: #fff;
+    background-color: #ec0a45; 
+    text-transform: capitalize;
+    padding:12px 31px;
+    -webkit-border-radius:38px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+
+    -webkit-box-shadow: 0px 7px 10px -10px rgba(46,41,43,0.66);
+    -moz-box-shadow: 0px 7px 10px -10px rgba(46,41,43,0.66);
+    box-shadow: 0px 7px 10px -10px rgba(46,41,43,0.66);
+
+     
+}
+
+.red:hover {
+    color: #fff;
+    background-color: #FF527F;
+}
+
 
 .btn-main:hover,
 .form-submit:hover {
-    color: #ec0a45;
     text-decoration: none;
 }
 
-.btn-main:before,
 .form-submit:before {
     position: absolute;
     content: '';
     width: 0%;
     height: 2px;
-    opacity: .5;
+    opacity: .8;
     top: 45%;
     background: #fff;
     -webkit-transition: all .3s ease-in-out;
@@ -1100,7 +1154,7 @@ a:hover {
 .item-img-1b {
     height: 600px;
     width: 100%;
-    background: url('../img/background/travpro thumbb.jpg') no-repeat center center;
+    background: url('../img/background/travpro thumb2.jpg') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -1115,6 +1169,14 @@ a:hover {
 
 .item-img-2b {
     background: url('../img/background/social-bootcamp2.jpg') no-repeat center center;
+    height: 100%;
+    width: 100%;
+    background-size: cover; -webkit-background-size: cover;
+    
+}
+
+.item-img-2c {
+    background: url('../img/background/social-bootcamp3.jpg') no-repeat center center;
     height: 100%;
     width: 100%;
     background-size: cover; -webkit-background-size: cover;
@@ -1154,7 +1216,7 @@ a:hover {
 .item-img-4 {
     height: 600px;
     width: 100%;
-    background: url('../img/background/logofolio.jpg') no-repeat center center;
+    background: url('../img/background/logofolio2.jpg') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -1170,7 +1232,7 @@ a:hover {
 .item-img-5 {
     height: 600px;
     width: 100%;
-    background: url('../img/background/shatterPulseShotOptimized.gif') no-repeat center center;
+    background: url('../img/background/UI v1.png') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -1248,6 +1310,7 @@ a:hover {
     position: absolute;
     bottom: 40px;
     padding-left: 40px;
+    letter-spacing: 0.1em;
     left: -150%;
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
@@ -1259,14 +1322,18 @@ a:hover {
 }
 
 .item-text p {
-    color: white;
-    margin-bottom: 25px;
-    text-transform: uppercase;
+    color: #f0f0f0;
+    margin-bottom: 15px;
+    font-size: 1em;
 }
 
 .item-text h2, h3 {
     margin: 0;
     text-decoration: none;
+}
+
+.item-text .btn-main {
+    font-size: 1.2em;
 }
 
 .scroll .view-more {
@@ -1294,15 +1361,16 @@ a:hover {
     }
     .item-text a {
         margin-top: 5px;
-        
-
-    
     }
 
     .item-text h2, h3 {
         margin: 0px;
         visibility: inline;
         text-decoration: none;
+    }
+    .title_white h2{
+        text-align: left;
+        padding-bottom: 10vh;
     }
 
     .item-text {
@@ -1512,14 +1580,14 @@ a:hover {
 .post-info span {
     color: #252523;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-transform: uppercase;
 }
 
 .client {
-    border-left: 1px solid #59595b;
-    border-right: 1px solid #59595b;
-    padding-bottom: 30px;
+    border-left: 1px solid #8e8e8ecc;
+    border-right: 1px solid #8e8e8ecc;
+    padding-bottom: 0px;
 }
 
 /* Start Post Content Text */
@@ -1651,6 +1719,13 @@ a:hover {
 /* End Post Content Text */
 
 /* Start Post Arrow */
+
+.up-next {
+    background-color: #F0F0F0;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
 
 .post-arrow {
     margin-top: 60px;
@@ -2841,9 +2916,11 @@ footer .social,
 
 
 @media (max-width: 991px) {
-    p {
+     /* 
+     p {
         font-size: 16px;
     }
+    */
     /* streak */
     .item-text h2 {
         font-size: 27px;
@@ -2861,9 +2938,9 @@ footer .social,
     .state-items {
         margin-bottom: 30px;
     }
-    /* About Resume*/
+    /* About Resume was 15px*/
     .no-padding {
-        padding: 0 15px;
+        padding: 0 0px;
     }
     .resume-top {
         padding-top: 0;
@@ -2946,7 +3023,7 @@ footer .social,
         font-size: 40px;
     }
     h2 {
-        font-size: 28px;
+        font-size: 1.2em;
     }
     /* Title */
     .title span {
@@ -3026,7 +3103,7 @@ footer .social,
     /* Post Content */
     .service,
     .client {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
     /* About Studio */
     .our-story-text h3 {
