@@ -210,6 +210,8 @@ hr {
     color: #818181;
     font-size: 2.2em;
     letter-spacing: 0.04em;
+    margin-top: -4px;
+    margin-bottom: 10px;
 }
 
 header {
@@ -265,7 +267,7 @@ a:hover {
 .btn-main, .form-submit {
     color: #fff;
     position: relative;
-    padding-
+    margin-bottom: 30px;
     margin-top: 30px;
     text-transform: uppercase;
     display: inline-block;
@@ -1240,7 +1242,7 @@ a:hover {
 .item-img-5b {
     height: 600px;
     width: 100%;
-    background: url('../img/background/ready.png') no-repeat center center;
+    background: url('../img/games/UI v1.png') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -1653,7 +1655,7 @@ a:hover {
     background: url('https://i.imgur.com/5LgGpZd.gif') no-repeat center center;
 }
 .img_sales5 {
-    background: url('../img/salescompanion/styleguide.jpg') no-repeat center center;
+    background: url('../img/salescompanion/loading.jpg') no-repeat center center;
 }
 .img_sales6 {
     background: url('../img/salescompanion/messages applied.jpg') no-repeat center center;
