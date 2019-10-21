@@ -1146,7 +1146,7 @@ a:hover {
 .item-img-1 {
     height: 600px;
     width: 100%;
-    background: url('../img/background/travpro thumb.jpg') no-repeat center center;
+    background: url('https://i.imgur.com/JPBNpGx.gif') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -1249,7 +1249,7 @@ a:hover {
 .item-img-crowd {
     height: 600px;
     width: 100%;
-    background: url('../img/background/crowdmedia2.jpg') no-repeat center center;
+    background: url('../img/background/crowdmedia3.jpg') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -1609,6 +1609,7 @@ a:hover {
 
 .post-content-text {
     padding-top: 30px;
+    margin: 0px 50px 50px 0px;
 }
 
 .post-content-text p {
@@ -2031,6 +2032,8 @@ a:hover {
         height: 100vw;
         
     }
+
+        
     } 
 
 
@@ -2992,6 +2995,11 @@ footer .social,
         right: 0;
         bottom: 0;
         left: 0;
+    }
+
+    .post-content-text {
+    padding-top: 30px;
+    margin: 0px 10px 10px 0px;
     }
 }
 
