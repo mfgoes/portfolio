@@ -60,7 +60,7 @@ body {
     line-height: 1.5;
     font-family: 'Open Sans', Merriweather Sans, 'Source Sans Pro', sans-serif;
     font-weight: 400;
-    background: #16181a;
+    background: #101010;
     position: relative;
 }
 
@@ -1496,6 +1496,14 @@ a:hover {
       overflow: hidden;
       position: relative;
       padding-top: 56.25%;
+    }
+
+    /*This keeps the aspect ratio fixed*/
+.tile_4_3{ 
+      height: 0;
+      overflow: hidden;
+      position: relative;
+      padding-top: 75%;
     }
 
 .aspect-ratio-box-inside {
