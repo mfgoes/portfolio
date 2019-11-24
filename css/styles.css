@@ -18,7 +18,7 @@ New color: ec0a45 (red)
     01.7 Bottns
     01.8 Social
     01.9 Lightbox
-    01.10 Grain
+    02.1 Cursor Follower
 02  Navbar
 03. Page Slideshow
 04. Page Streak
@@ -105,7 +105,7 @@ h2 {
 
 h3 {
     font-weight: 600;
-    font-size: 50px;
+    font-size: 1.5em;
     color: #fff;
 }
 
@@ -267,8 +267,7 @@ a:hover {
 .btn-main, .form-submit {
     color: #fff;
     position: relative;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin-bottom: 10px;
     text-transform: uppercase;
     display: inline-block;
     -webkit-transition: all .1s ease-in-out;
@@ -277,7 +276,7 @@ a:hover {
 }
 
 .btn-main {
-     margin-top: 20px;
+     margin-top: 10px;
      text-transform: uppercase;
      text-shadow:0px 1px 0px #2f662744;
      cursor:pointer;
@@ -387,6 +386,30 @@ a:hover {
     background-color: powderblue;
     max-width: 1000px;
 }
+
+/* Cursor Follower */
+
+.cursor-follower {
+    margin: -13px 0 0 -13px;
+    position: absolute;
+    background: #fff;
+    width: 26px;
+    height: 26px;
+    -webkit-transition: transform 1s cubic-bezier(.02, 1.2, .8, 1), opacity .25s ease;
+    transition: transform 1s cubic-bezier(.02, 1.2, .8, 1), opacity .25s ease;
+    opacity: .4;
+    z-index: 1111;
+    pointer-events: none;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%
+}
+
+.cursor-follower.hide {
+    opacity: 0!important
+}
+
 
 /*--- 02.Start Navbar ---*/
 
@@ -1348,7 +1371,7 @@ a:hover {
 }
 
 .item-text .btn-main {
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .scroll .view-more {
@@ -2025,6 +2048,10 @@ a:hover {
         height: 50vw;
         min-height: 120px;
         min-width: 140px; 
+    }
+
+    .cursor-follower {
+        display: none
     }
 }
 
@@ -3033,7 +3060,7 @@ footer .social,
     }
 
     h3 {
-        font-size: 33px;
+        font-size: 1.5em;
         
     }
     .navbar-brand {
