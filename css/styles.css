@@ -77,6 +77,7 @@ h3 {
     font-family: Open Sans, Source Sans Pro, sans-serif;
     margin: 0;
     font-weight: 400;
+    text-transform: capitalize;
     line-height: 1.1;
     letter-spacing: 0.07em;
 }
@@ -1253,6 +1254,23 @@ a:hover {
     -webkit-background-size: cover;
     background-size: cover;
 }
+
+.item-img-evbox {
+    height: 600px;
+    width: 100%;
+    background: url('../img/background/evbox1.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.item-img-evbox2 {
+    height: 600px;
+    width: 100%;
+    background: url('../img/background/evbox2.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
 
 .item-img-crowd2 {
     height: 600px;
