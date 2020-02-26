@@ -253,7 +253,7 @@ a:hover {
 ::selection {
     color: #fff;
     text-shadow: none;
-    background: #ec0a45;
+    background: #4DD0FA;
 }
 
 ::-moz-selection {
@@ -1271,6 +1271,13 @@ a:hover {
     background-size: cover;
 }
 
+.item-img-posters {
+    height: 600px;
+    width: 100%;
+    background: url('../img/background/FREE2.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
 
 .item-img-crowd2 {
     height: 600px;
@@ -1755,11 +1762,14 @@ a:hover {
 /* Start Post Arrow */
 
 .up-next {
-    background-color: #F0F0F0;
+    background-color: white;
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
-
+.up-next img {
+    padding-right:15px;
+    width: 100%;
+}
 
 .post-arrow {
     margin-top: 60px;
@@ -2816,9 +2826,9 @@ textarea {
 /*--- Start Scroll Top ---*/
 
 .scroll-top {
-    right: 0;
+    right: -30px;
     opacity: .3;
-    bottom: 53px;
+    bottom: 95px;
     display: none;
     position: fixed;
     cursor: pointer;
@@ -2837,13 +2847,13 @@ textarea {
 }
 
 .scroll-top span {
-    color: #d5d5d5;
+    color: #868686;
     cursor: pointer;
     line-height: 1.5;
     text-transform: uppercase;
-    -webkit-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+    -webkit-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
 }
 
 .scroll-top span:hover {
