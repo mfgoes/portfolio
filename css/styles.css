@@ -176,6 +176,7 @@ hr {
 
 .title_white h2{
     color: white;
+    margin: 10px;
     margin-bottom: 10vh;
     text-align: left;
     font-size: 2em;
@@ -232,7 +233,7 @@ header {
     height: auto;
     text-transform: none;
     font-family: Merriweather Sans, Source Sans Pro, sans-serif;
-    line-height: 1.2;
+    line-height: 1.4;
 }
 a:hover {
     color: #ec0a45;
@@ -652,7 +653,7 @@ a:hover {
     border-top: 0px solid transparent;
     -webkit-box-shadow: none;
     box-shadow: none;
-    margin-top: 4px;
+    margin-top: 0px;
 }
 
 /*--- End Navbar ---*/
@@ -1436,7 +1437,7 @@ a:hover {
 }
 
 .grid-nav {
-    margin: 0 0 20px 15px;
+    margin: 0 0 20px 25px;
 }
 
 .grid-nav ul {
@@ -1634,7 +1635,7 @@ a:hover {
 
 .post-content-text {
     padding-top: 30px;
-    margin: 0px 50px 50px 0px;
+    margin: 0px 0px 50px 0px;
 }
 
 .post-content-text p {

@@ -17659,15 +17659,7 @@ function initMap() {
         }), n(".logged-in .section.started").css({
             height: a - 46
         })), !n(".grained-off").length) {
-        grained("#grained_container", {
-            animate: !0,
-            patternWidth: 400,
-            patternHeight: 400,
-            grainOpacity: .15,
-            grainDensity: 3,
-            grainWidth: 1,
-            grainHeight: 1
-        })
+        
     }
     1199 < e && (n(document).on("mousemove", function(e) {
         var a = e.pageX,
