@@ -1,0 +1,1 @@
+<p class="comp"><strong style="font-weight: bolder;">$4.50 per 160 character msg sent.</strong><br>Helpline 1800244616 - To opt out of marketing messages send STOP to 0438528233. - Under 18? Ask account holder first.<br><a href="http://askbongo.com/au197/">www.askbongo.com</a><br><a href="http://askbongo.com/au/tc/">Terms &amp; Conditions</a><br>Bongo Operations Pty Ltd</p>

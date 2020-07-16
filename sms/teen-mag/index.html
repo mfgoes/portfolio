@@ -1,0 +1,136 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Teen Mag</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+
+        <img src="img/header.png">
+        <section>
+            <h3>1. Good kissers keep it #real.</h3>
+            <p>The #1 must-have for even a semi-decent kiss: You actually want to. If you're kissing someone only because it feels like what you "should" be doing ~in the moment~ or because you feel weird pressure, then STEP AWAY FROM THE FACE.</p>
+            <h3>2. Good kissers stay fresh.</h3>
+            <p>Would you want to be thisclose to someone's face space only to find that their mouth smells like the dumpster behind Olive Garden? Kay. If you're anticipating a trip to MakeoutTown, avoid the stank-inducing foods like garlic, onions, processed Cheetos-like cheese, etc. It's basic manners.</p>
+        </section>
+        <div id="astuces">
+            <div>
+                <img src="img/lover.png">
+            </div>
+            <div>
+                <h3>Get the tips of the best kissers of all time</h3>
+                <p>Send your gender now and get personalised tips</p>
+                <div class="card">
+                    <form id="askbongo-form">
+                        <label class="radio">
+                            <input id="man" type="radio" name="radioName" value="man" class='test' checked>
+                            <span class="outer">
+                                <span class="inner"></span>
+                            </span><img src="img/man.png">
+                        </label>
+                        <label class="radio">
+                            <input id="woman" type="radio" name="radioName" value="woman" class='test'>
+                            <span class="outer">
+                                <span class="inner"></span>
+                            </span><img src="img/woman.png">
+                        </label>
+                        <img id='redirect' src='img/btn.png'>
+                        <p class="comp" id="comp"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <section>
+<h3>3. Good kissers Keep Calm and Carry Balm.</h3>
+<p>No one can hate when your gloss game is strong, but actually mashing that onto a human's face is gross and cruel and no. Bae is probs trying to kiss your actual lips, not your Melon Mango Primer, so stick to that good ol' neutral lip balm.</p>
+
+<h3>4. Good kissers talk it out.</h3>
+<p>Listen, #aintnobodygottime for bleh makeouts. Expert kissers skip to the good parts by taking control and mentioning the things you do like ("So, that tongue move you just did. Yasss."), and show them alternatives to the things you don't. ("Hey, instead of that ... toothy … situation you did with my lip, how about you just graze it gently, like this?")</p>
+
+<h3>5. Good kissers move ~like you're my miiiirrror~</h3>
+<p>I'm not mad at envisioning J.Timbs when kissing anyone, and Bomb-dot-com kisses are a mirror dance — meaning, mimic: Slow down, take note of the things bae does, and gently do it back. Bust out moves you'd want them to do to you. Remember that the show's not all about you: You're both in control of this dance.</p>
+
+
+
+
+
+        </section>
+        <img id="link" src="img/up.png">
+
+
+
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+<script src="../js/plugins.js"></script>
+<script src="../js/track.js"></script>
+<script type="text/javascript">
+
+var shortcode = "19726646";
+var keyword = "Best kissers,";
+var gender = 'man';
+
+
+$(document).ready(function() {
+    getUrlVars();
+    storeData();
+});
+
+$('.radio').on('click', function(){
+    gender = $('input[type=radio]:checked').val();
+});
+
+function generateMsg() {
+    $.get("https://kes.globalaqa.com/tracking/api/cmconversiontracking/affiliates/" + trackdata.affiliate_id + "/clicks/" + trackdata.subid + "/submitted", function(resp) {
+        console.log(resp);
+        code = resp.slotId;
+        getDevice();
+        if (isMobile.any()) {
+            if (isMobile.iPhone()) {
+                window.location.replace("sms:" + shortcode + "&body=" + code + " " + keyword + " " + gender);
+            } else if (isMobile.Android()) {
+                window.location.replace("sms:" + shortcode + "?body=" + code + " " + keyword + " " + gender);
+            }
+        } else {
+            alert(code + " " + "Use your mobile device to text " + shortcode + " with " + "\"" + keyword + " " + gender + "\"");
+        }
+    }, 'jsonp');
+};
+
+
+
+
+$('#redirect').on('click', function(){
+    generateMsg();
+});
+
+</script>
+<script type="text/javascript" data-cfasync="false">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-34143619-1', 'auto');
+  ga('send', 'pageview');
+</script>
+    </body>
+</html>

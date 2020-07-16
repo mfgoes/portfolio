@@ -1,0 +1,294 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+
+<!-- Google Tag Manager -->
+<script type="text/javascript" data-cfasync="false">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PVP32D');</script>
+<!-- End Google Tag Manager -->
+
+
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Meant to be</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
+<style>
+body {
+    margin: 0px;
+    display: block;
+    width: 100vw;
+    background-color: #111111;
+    margin: 0 auto;
+    max-width: 550px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+#header {
+    width: 88%;
+    margin: 3% auto;
+    display: block;
+}
+#redirect {
+    margin: 12px auto 0;
+    display: block;
+    width: 100%;
+}
+
+
+p, a {
+    color: white;
+    font-family: 'Raleway', helvetica;
+    font-weight: lighter;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+}  
+
+#require {display: none;color: #fe7fb5;}
+#require.show {display: block;}
+
+img.image-top {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+#croix {
+    margin: 2vh auto;
+    width: 8%;
+    display: block;
+    }
+
+.row {
+    width: 100%;
+}
+
+.form-control, .bongo-txtfield-3 input[type=text] {
+    border: none;
+    width: 90%;
+    border-radius: 1px;
+    text-indent: 14%;
+    color: #fe7fb5;
+    font-size: 16px;
+    display: block;
+    margin: 10px auto;
+    height: 28px;
+    border: 4px solid #fe7fb5;
+    background-color: white !important;
+    font-family: 'Futura', helvetica;
+
+}
+
+.form-control::-webkit-input-placeholder{
+    color:#fe7fb5;
+    font-family: 'Futura', helvetica;
+}
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; }
+
+#hisname {
+    background: url('../img/crush-mtb.png');
+    background-position: 4px;
+    background-size: 24px;
+    background-repeat: no-repeat;
+}
+#fullname {
+    background: url('../img/user-mtb.png');
+    margin-bottom: 5px;
+    background-position: 4px;
+    background-size: 24px;
+    background-repeat: no-repeat;
+}
+#town {
+    background: url('../img/location-mtb.png');
+    margin: 0 auto;
+    background-position: 4px;
+    background-size: 24px;
+    background-repeat: no-repeat;
+}
+p#big {
+    display: none;
+}
+
+div#submit {
+    width: 100%;
+}
+
+img#calc {
+    width: 100%;
+}
+
+div#step2 {
+    width: 80%;
+    position: relative;
+    margin: 10px auto;
+}
+
+div#step2 img.loader {
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    top: 20%;
+}
+
+div#step2 img {width: 100%;}
+#askbongo-form.hide {display:none;}
+#step2, .redir, .loader {display:none;}
+#step2.show, .redir.show, .loader.show {display:block;}
+#calc.hide {display:none;}
+
+
+.ohno {
+    opacity: 0;
+}
+.ohno.show {
+    opacity: 1;
+}
+.compatible {
+    color: #fe7fb5;
+    margin: 0 auto 14px;
+    width: 100%;
+    font-size: 16px;
+}
+
+</style>
+
+    </head>
+    <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript type="text/javascript" data-cfasync="false"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PVP32D"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <img id="header" src="../img/meant-to-be.png"">
+        <p class="compatible">how compatible are<br>you and your crush?</p>
+        <div class="container main">
+            <div class="row">
+                <form id="askbongo-form">
+                    <div class="center-block header-image">
+                        <img src="../img/mtb.gif" class='image-top'/>
+                    </div>
+                    <input type="text" id='fullname' name="firstname" class="form-control center-block" placeholder="Enter your name" required>
+                    <input type="text" id='hisname' name="hisname" class="form-control center-block" placeholder="Enter your crush's name" required>
+                    <p id='require'>* Please fill in every field</p>
+
+                   
+                </form>
+
+                <div id="step2">
+                    <img class='loader' src="../img/loader-mtb.gif">
+                    <div class='ohno'>
+                        <img class='' src="../img/result-mtb.png">
+                        <p style="font-size: 15px;color: #3cdba8;margin:14px 0 8px;">Your SMS app will open automatically</p>
+                        <img src="../img/continue-mtb.png" id='redirect'>
+                        <p style="margin: 2px;" class="redir">$4.50 per 160 character msg sent.<br>You will be redirected to your SMS</p>
+                    </div>
+
+                </div>
+
+                <div id='submit'>
+                    <img src="../img/calculate-mtb.png" id="calc">
+                </div>
+                 
+
+
+                <p class="comp">
+                Helpline 1800244616<br>
+                To opt out of marketing messages send STOP to 0438528233.<br>
+                Under 18? Ask account holder first.<br>
+                <a href="www.askbongo.com">www.askbongo.com</a><br>
+                <a href="http://askbongo.com/au/tc/">Terms &amp; Conditions</a><br>
+                Bongo Operations Pty Ltd
+                </p>
+
+                <div class="instruction text-center">
+                    <p id='big'>
+                        <span id="him">0</span> and <span id="days">0</span>‡
+                    </p>
+                </div>
+            </div>
+        </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="../js/track.js"></script>
+<script type="text/javascript">
+
+
+$('#calc').on('click', function(){
+    if (!$('#fullname').val() || !$('#hisname').val()) {
+        $('#require').addClass('show');
+    } else {
+        $('#askbongo-form').addClass('hide');
+        $('#step2').addClass('show');
+        $(this).addClass('hide');
+        $('.loader').addClass('show');
+        $('.testies').addClass('hide');
+        setTimeout(function(){ 
+            $('.ohno').addClass('show');
+            $('.redir').addClass('show');
+        }, 1400);
+        setTimeout(function(){ $('.loader').removeClass('show'); }, 1200);
+    }
+});
+
+var shortcode = "19726646";
+var keyword = "Meant to be?";
+
+$(document).ready(function() {
+    getUrlVars();
+    storeData();
+});
+
+function generateMsg() {
+    $.get("https://kes.globalaqa.com/tracking/api/cmconversiontracking/affiliates/" + trackdata.affiliate_id + "/clicks/" + trackdata.subid + "/submitted", function(resp) {
+        console.log(resp);
+        code = resp.slotId;
+        getDevice();
+        if (isMobile.any()) {
+            if (isMobile.iPhone()) {
+                window.location.replace("sms:" + shortcode + "&body=" + code + " " + keyword + " " + $("#fullname").val() + " + " + $("#hisname").val());
+            } else if (isMobile.Android()) {
+                window.location.replace("sms:" + shortcode + "?body=" + code + " " + keyword + " " + $("#fullname").val() + " + " + $("#hisname").val());
+            }
+        } else {
+            alert(code + " " + keyword + " " + "Use your mobile device to text on " + shortcode + " with " + $("#fullname").val() + " + " + $('#hisname').val());
+        }
+    }, 'jsonp');
+};
+
+$('#redirect').on('click', function(){
+    generateMsg();    
+});
+
+</script>
+<script type="text/javascript" data-cfasync="false">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-34143619-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+    </body>
+</html>

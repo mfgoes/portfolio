@@ -1,0 +1,164 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+
+<!-- Google Tag Manager -->
+<script type="text/javascript" data-cfasync="false">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PVP32D');</script>
+<!-- End Google Tag Manager -->
+
+
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Who's my stalker</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
+
+<style>
+html {background: white;}
+body {margin: 0px;min-height: 750px;background: #004580;max-width: 450px;width:100%;display: block;margin: 0 auto;}
+img.top {width: 100%;}
+h1 {font-size: 1.1em;color: white;font-family: helvetica;text-align: center;margin: .8em 0;letter-spacing: .5px;}
+p, a {text-align: center;font-size: 12px;color: white;}
+#require {display: none;}
+#require.show {display: block;}
+input.txt {
+    width: 80%;
+    display: block;
+    margin: 10px auto;
+    box-sizing: border-box;
+    background-color: #5a94c5;
+    border: none;
+    color: white;
+    text-indent: 40px;
+    background-position: 0px;
+    font-size: 14px;
+    line-height: 27px;
+    font-family: helvetica;
+    border-radius:0px;
+}
+#redirect {
+    margin: 14px auto;
+    padding-top: 2px;
+    display: block;
+    width: 80%;
+    background-color: white;
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 40px;
+    font-family: helvetica;
+    font-weight: bold;
+    border-radius: 4px;
+    color: #004580;
+    letter-spacing: 1px;
+}
+input#fullname {background-image: url('../img/guy1_blue.png');background-repeat: no-repeat;background-size: 35px;}
+input#town {background-image: url('../img/location1_blue.png');background-repeat: no-repeat;background-size: 35px;}
+p#big {display: none;}
+p.comp, p.comp a {
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    font-size: 13px;
+}
+/* placeholder */
+::-webkit-input-placeholder {color: white;}
+:-moz-placeholder {color: white;}
+::-moz-placeholder {color: white;}
+:-ms-input-placeholder {color: white;}
+</style>
+
+</head>
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript type="text/javascript" data-cfasync="false"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PVP32D"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+    <container>
+        <img class='top' src="../img/stalkfinder_v1.png">
+        <div class="row">
+            <h1>Send us your info by text<br>to find out who's stalking you</h1>
+            <form id="askbongo-form">
+                <input type="text" id='fullname' name="firstname" class="txt" placeholder="Enter your full name">
+                <input type="text" id='town' name="lastname" class="txt" placeholder="Town">
+                <p id='require'>Please fill in every field</p>
+                <div id='redirect'>Send</div>
+            </form>
+            <div class='compliance'>
+                <p class='comp'><strong style="font-weight: bolder;font-size:14px;">$4.50 per 160 character msg sent.</strong><br>
+                Helpline 1800244616<br>
+                To opt out of marketing messages send STOP to 0438528233.<br>
+                Under 18? Ask account holder first.<br>
+                <a href="http://askbongo.com/au197/">www.askbongo.com</a><br>
+                <a href="http://askbongo.com/au/tc/">Terms & Conditions</a><br>
+                Bongo Operations Pty Ltd
+                </p>
+                <p id='big'>
+                    <span id="days">0</span> and <span id="townval">0</span>
+                </p>
+            </div>
+        </div>
+    </container>
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+<script src="../js/plugins.js"></script>
+<script src="../js/track.js"></script>
+<script type="text/javascript">
+
+var shortcode = "19726646";
+var keyword = "Who's my stalker?";
+
+$(document).ready(function() {
+    getUrlVars();
+    storeData();
+});
+
+
+function generateMsg() {
+    $.get("https://kes.globalaqa.com/tracking/api/cmconversiontracking/affiliates/" + trackdata.affiliate_id + "/clicks/" + trackdata.subid + "/submitted", function(resp) {
+        console.log(resp);
+        code = resp.slotId;
+        getDevice();
+        if (isMobile.any()) {
+            if (isMobile.iPhone()) {
+                window.location.replace("sms:" + shortcode + "&body=" + code + " " + keyword + " " + $("#fullname").val() + ", " + $("#town").val());
+            } else if (isMobile.Android()) {
+                window.location.replace("sms:" + shortcode + "?body=" + code + " " + keyword + " " + $("#fullname").val() + ", " + $("#town").val());
+            }
+        } else {
+            alert(code + " " + keyword + " " + "Use your mobile device to text on " + shortcode + " with " + $("#fullname").val() + " and " + $('#town').val());
+        }
+    }, 'jsonp');
+};
+
+$('#redirect').on('click', function(){
+        if (!$('#fullname').val() || !$('#town').val()) {
+        $('#require').addClass('show');
+    } else {
+        generateMsg();    
+    };
+});
+</script>
+<script type="text/javascript" data-cfasync="false">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-34143619-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
