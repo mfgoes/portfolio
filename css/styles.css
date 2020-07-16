@@ -1142,7 +1142,7 @@ a:hover {
 .item-img-1 {
     height: 600px;
     width: 100%;
-    background: url('https://i.imgur.com/JPBNpGx.gif') no-repeat center center;
+    background: url('../img/background/travpro thumb web.jpg') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -1152,7 +1152,7 @@ a:hover {
 .item-img-1b {
     height: 600px;
     width: 100%;
-    background: url('../img/background/travpro thumb2.jpg') no-repeat center center;
+    background: url('../img/background/Caribbean - iPhoneXs-001.jpg') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -1269,7 +1269,7 @@ a:hover {
 .item-img-evbox2 {
     height: 600px;
     width: 100%;
-    background: url('../img/background/evbox2.jpg') no-repeat center center;
+    background: url('../img/background/evbox3.jpg') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -2260,7 +2260,7 @@ a:hover {
 .blog-item-img-2 {
     height: 450px;
     width: 100%;
-    background: url('../img/background/travpro thumb.jpg') no-repeat center center;
+    background: url('../img/background/travpro thumb web.jpg') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
 }
