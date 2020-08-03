@@ -122,7 +122,6 @@ h4 {
 
 p, .inline-link {
     color: #060607;
-    font-size: 0.9em;
     line-height: 2;
     display: inline;
 }
@@ -130,6 +129,7 @@ p, .inline-link {
 .inline-link {
     text-decoration: underline;
     display: inline;
+    color: #BBBBBB;
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
@@ -1860,46 +1860,51 @@ a:hover {
 /*--- Start About Studio ---*/
 
 .about-studio {
-    position: relative;
-    height: 20%;
     width: 100%;
-    -webkit-background-size: cover;
-    background-size: cover;
-
+    height: 500px; /*--- Change height depending on screen size ---*/
+    border: 1px solid red;
 }
 
-.about-studio p, .about-studio .inline-link {
+.about-studio p, .about-studio {
     color: #BBBBBB;
 }
-
 .about-studio h2 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding-bottom: 0px;
-
-}
-
-.about-studio .title span {
-    color: #d5d5d5;
-
-}
-.about-studio .title h1 {
-    color: #fff;
-    letter-spacing: 0px;
-}
-.about-studio h2 {
-    font-size: 1.5em;
     color: white;
-    }
 
-.about-studio .title {
-    text-align: left;
-    position: absolute;
-    top: 60%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    margin-bottom: 0;
+}
+
+.center-items {
+    display:flex;
+    align-items:center;
+}
+
+.center-image {
+    border: 3px solid green;
+    height: inherit;
+    
+}
+
+.center-image img {
+    width: auto;
+    margin-right: 10px;
+    float: right;
+
+}
+
+.center-text {
+    border: 3px solid orange;
+    height: inherit;
+    /*min-width: 50%;
+    display:flex;
+    */
+    align-items:center;
+    padding-top: 100px;
+   
+}
+
+.center-text span {
 }
 
 /* Scroll Down */
