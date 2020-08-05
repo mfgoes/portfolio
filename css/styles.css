@@ -50,7 +50,7 @@ New color: ec0a45 (red)
 
 @import url("https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700");
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 
 
 html,
@@ -116,12 +116,12 @@ h3.instagram_title {
 }
 
 h4 {
-    font-weight: 400;
+    font-weight: 800;
     font-size: 1.1em;
 }
 
 p, .inline-link {
-    color: #060607;
+    color: #bbb;
     line-height: 2;
     display: inline;
 }
@@ -129,7 +129,7 @@ p, .inline-link {
 .inline-link {
     text-decoration: underline;
     display: inline;
-    color: #BBBBBB;
+    color: #fff;
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
@@ -1899,6 +1899,7 @@ a:hover {
 
 .about-page p, .about-page {
     color: #BBBBBB;
+    line-height: 2em;
 }
 .about-page h2 {
     margin-bottom: 10px;
@@ -1916,18 +1917,23 @@ a:hover {
     align-items:center;
 }
 
-.center-image {
-    /*border: 1px solid green;*/
-    height: 100%
-    
-}
 .indent-padding {
     padding-left: 100px;
 }
 
+.center-image {
+    /*border: 1px solid green;*/
+    height: 100%;
+    display: flex;
+    
+    
+}
+
 .center-image img {
     width: auto;
-    margin-right: 10px; 
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .float-right img {
@@ -1955,6 +1961,27 @@ a:hover {
     height: 100%;
 }
 
+.about-page .wrapper {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-gap: 10px;
+}
+
+.about-page h4 {
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.about-page p {
+    font-size: 0.9em;
+}
+.about-page .box {
+  color: #BBBBBB;
+  /*background-color: #141618;
+  border-radius: 2px;*/
+  padding: 0px 0px 5px;
+}
 
 @media (max-width: 768px)  {
 
@@ -3085,7 +3112,7 @@ footer .social,
 
 /* Copy */
 
-.copy p {
+.copy {
     text-align: right;
 }
 
@@ -3162,11 +3189,14 @@ footer .social,
         ;
         display: block;
     }
-    .about-footer p,
+    .about-footer,
     footer .social,
-    .copy p {
+    {
         padding: 0;
         text-align: center;
+    }
+    .copy, .about-footer {
+        display: none;
     }
 
 }
