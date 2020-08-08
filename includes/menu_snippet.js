@@ -24,8 +24,8 @@ document.write("                            <li><a class=\"click-close\" href=\"
 document.write("                            ");
 document.write("                        <\/ul>");
 document.write("                    <\/li>");
-document.write("                    <li><a class=\"click-close\" href=\"about-resume.html\">About<\/a><\/li>");
-document.write("                    <li><a class=\"click-close\" href=\"contact.html\">Contact<\/a><\/li>");
+document.write("                    <li><a class=\"click-close\" href=\"about.html\">About<\/a><\/li>");
+document.write("                    <li><a class=\"click-close\" href=\"about.html#contact-section\">Contact<\/a><\/li>");
 document.write("                <\/ul>");
 document.write("            <\/div>");
 document.write("        <\/div>");
