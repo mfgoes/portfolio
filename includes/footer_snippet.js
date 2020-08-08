@@ -23,7 +23,7 @@ document.write("					<\/ul>");
 document.write("				<\/div>");
 document.write("			<\/div><!-- Copy -->");
 document.write("			<div class=\"col-lg-4 col-md-4 col-sm-12\">");
-document.write("				<div class=\"copy\">");
+document.write("				<div class=\"copy about-footer\">");
 
 document.write("					<p>Portfolio 2020<br>Amsterdam, NL<\/p>");
 document.write("				<\/div>");
