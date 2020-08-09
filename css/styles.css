@@ -1992,7 +1992,29 @@ a:hover {
   display: grid;
   grid-template-columns: 60% 40%;
   grid-gap: 10px;
-  overflow: auto;
+  overflow-wrap: break-word;
+  overflow: visible;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #222; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #BBBBBB; 
 }
 
 .about-page h4 {
