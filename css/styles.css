@@ -204,14 +204,14 @@ hr {
 .title_white h2{
     color: white;
     margin: 10px;
-    margin-bottom: 10vh;
     text-align: left;
     font-size: 2em;
     letter-spacing: 0.01em;
-    padding-bottom: 10vh;
-
 }
 
+.title_white {
+    margin-bottom: 10vh;
+}
 
 .title_white p, .title_white ul.a{
     color: #e9e9e9;
@@ -300,11 +300,13 @@ a:hover {
      text-transform: capitalize;
 }
 
-.secondary {
-    margin: auto;
-    width: 100%;
+.secondary
+{
     text-align: center;
-    outline: 1px;
+    padding: 10px 20px 10px 20px;
+    min-width: 160px;
+    border: 1px solid white;
+    border-radius: 5px;
 }
 .red {
     color: #fff;
@@ -1441,7 +1443,6 @@ a:hover {
     }
     .title_white h2{
         text-align: left;
-        padding-bottom: 10vh;
     }
 
     .item-text {
