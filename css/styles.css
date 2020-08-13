@@ -285,7 +285,6 @@ a:hover {
     position: relative;
     margin-bottom: 30px;
     margin-top: 30px;
-    text-transform: uppercase;
     display: inline-block;
     -webkit-transition: all .1s ease-in-out;
     -o-transition: all .2s ease-in-out;
@@ -298,8 +297,15 @@ a:hover {
      text-shadow:0px 1px 0px #2f662744;
      cursor:pointer;
      letter-spacing: 0.1em;
+     text-transform: capitalize;
 }
 
+.secondary {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    outline: 1px;
+}
 .red {
     color: #fff;
     background-color: #101010; 
