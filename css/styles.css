@@ -268,7 +268,7 @@ a:hover {
 ::selection {
     color: #fff;
     text-shadow: none;
-    background: #4DD0FA;
+    background: #878787;
 }
 
 ::-moz-selection {
@@ -324,9 +324,9 @@ a:hover {
      
 }
 
-.red:hover {
-    color: #fff;
-    background-color: #bbb;
+.red:hover, .secondary:hover {
+    color: #060607;
+    background-color: #F4F4F4;
 }
 
 
@@ -473,7 +473,7 @@ a:hover {
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #d5d5d5;
+    color: #F4F4F4;
     position: relative;
     font-family: Merriweather Sans, Source Sans Pro, sans-serif;
     line-height: 1.5;
