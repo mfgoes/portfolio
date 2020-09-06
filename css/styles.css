@@ -202,7 +202,7 @@ hr {
 }
 
 .title_white h2{
-    color: white;
+    color: #ffffffeb;
     margin: 10px;
     text-align: left;
     font-size: 2em;
@@ -430,11 +430,11 @@ a:hover {
 
 .top-nav {
     padding: 8px 0;
-    background-color: #060607c2;
+    background-color: #121212;
 }
 
 .nav-open {
-    background-color: #111214;
+    background-color: #121212;
 }
 
 .navbar-brand {
