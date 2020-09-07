@@ -294,10 +294,11 @@ a:hover {
 .btn-main {
      margin-top: 10px;
      text-transform: uppercase;
-     text-shadow:0px 1px 0px #2f662744;
+     /*text-shadow:0px 1px 0px #2f662744;*/
      cursor:pointer;
      letter-spacing: 0.1em;
      text-transform: capitalize;
+     font-size: 1em;
 }
 
 .secondary
@@ -1478,16 +1479,14 @@ a:hover {
 }
 
 .grid-nav ul li {
-    color: #d5d5d5;
+    color: #878787;
     position: relative;
     line-height: 1.5;
-
     font-weight: 400;
-    letter-spacing: 0.2em;
-    font-size: 0.9em;
+    letter-spacing: 0.1em;
+    font-size: 1em;
     font-family: Source Sans Pro, sans-serif;
-    
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     margin: 0 25px 0 0;
     display: inline-block;
     cursor: pointer;
@@ -1509,7 +1508,7 @@ a:hover {
     position: absolute;
     content: '';
     width: 0%;
-    height: 2px;
+    height: 0px;
     opacity: .5;
     top: 40%;
     background: #fff;
@@ -1524,11 +1523,12 @@ a:hover {
 
 
 .grid-nav li.active {
-    color: #ec0a45;
+    color: #fff;
     background-color: transparent;
+    opacity: 1;
 }
 
-.grid-nav li.active:before {
+/*.grid-nav li.active:before {
     position: absolute;
     content: '';
     width: 100%;
@@ -1539,7 +1539,7 @@ a:hover {
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-}
+}*/
 
 .item-grid {
     margin-bottom: 30px;
