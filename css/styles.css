@@ -52,6 +52,11 @@ New color: ec0a45 (red)
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 
+@font-face {
+font-family: "TGothicFB-BoldWide";
+src: url("../fonts/TitlingGothicFB-BoldWide.ttf");
+src: url("../fonts/TitlingGothicFB-BoldWide.woff") format("woff")
+}
 
 html,
 body {
@@ -121,7 +126,8 @@ h4 {
 }
 
 p, .inline-link {
-    color: #222;
+    color: #222222;
+    font-weight: 600;
     line-height: 2;
     display: inline;
 }
@@ -260,7 +266,7 @@ a:hover {
 }
 
 .section-padding-top {
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 /* Selection */
@@ -1486,7 +1492,6 @@ a:hover {
     letter-spacing: 0.2em;
     font-size: 0.9em;
     font-family: Source Sans Pro, sans-serif;
-    
     text-transform: uppercase;
     margin: 0 25px 0 0;
     display: inline-block;
@@ -1944,6 +1949,7 @@ a:hover {
     background-color: #fff;
     color: #222;
     display: block;
+
 }
 .contact-section h2, .contact-section strong, .contact-section .about-page {
     color: #222;
@@ -1953,8 +1959,25 @@ a:hover {
 
 
 .contact-section h2 {
-    font-size: 2em;
+    font-size: 2em; 
 }
+
+.contact-section h3{
+    color: #141618;
+    font-size: 1.4em;
+    font-weight: 900;
+    margin-top: 40px;
+}
+.contact-section .subtitle-header {
+    color: #878787;
+    margin-bottom: 10px; margin-top: 0px;
+}
+
+.special-font {
+    font-family: TGothicFB-BoldWide, Source Sans Pro, sans-serif;
+    margin-bottom: 10px;
+}
+
 .contact-section a {
      text-decoration: underline;
 }
@@ -2031,7 +2054,9 @@ a:hover {
     margin-bottom: 5px;
 }
 .about-page p {
-    font-size: 0.9em;
+    font-size: 1em;
+    font-weight: 500;
+    letter-spacing: 0.2px;
 }
 .about-page .box p {
   color: #BBBBBB;
@@ -2041,18 +2066,22 @@ a:hover {
 }
 
 @media (max-width: 1108px)  {
-   .about-page h2 {
+   /*.about-page h2 {
         font-size: 1.4em;
         line-height: 1.8em;
-    }
+    }*/
 }
 
 @media (max-width: 768px)  {
 
-        .special-center {
+    .special-center {
     align-items:center;
     display: flex;
     height: auto;
+    }
+
+    .section-padding-top {
+        padding-top: 50px;
     }
     .contact-section .special-center {
         align-items:center;
@@ -2733,7 +2762,7 @@ input:-webkit-autofill {
 .blockquote {
     font-size: 1.4em;
     color: #878787;
-    border-left: 1px solid #222;
+    border-left: 1px solid #ffffff63;
     padding: 0 25px 0;
     /*
     margin: 40px 0 40px 40px;
