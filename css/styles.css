@@ -208,7 +208,7 @@ hr {
 }
 
 .title_white h2{
-    color: white;
+    color: #ffffffeb;
     margin: 10px;
     text-align: left;
     font-size: 2em;
@@ -300,10 +300,11 @@ a:hover {
 .btn-main {
      margin-top: 10px;
      text-transform: uppercase;
-     text-shadow:0px 1px 0px #2f662744;
+     /*text-shadow:0px 1px 0px #2f662744;*/
      cursor:pointer;
      letter-spacing: 0.1em;
      text-transform: capitalize;
+     font-size: 1em;
 }
 
 .secondary
@@ -436,11 +437,11 @@ a:hover {
 
 .top-nav {
     padding: 8px 0;
-    background-color: #060607c2;
+    background-color: #121212;
 }
 
 .nav-open {
-    background-color: #111214;
+    background-color: #121212;
 }
 
 .navbar-brand {
@@ -1484,15 +1485,18 @@ a:hover {
 }
 
 .grid-nav ul li {
-    color: #d5d5d5;
+    color: #878787;
     position: relative;
     line-height: 1.5;
-
     font-weight: 400;
-    letter-spacing: 0.2em;
-    font-size: 0.9em;
+    letter-spacing: 0.1em;
+    font-size: 1em;
     font-family: Source Sans Pro, sans-serif;
+<<<<<<< HEAD
     text-transform: uppercase;
+=======
+    /*text-transform: uppercase;*/
+>>>>>>> 7dab7c20c57b1eff612834f6b10b29939250ee46
     margin: 0 25px 0 0;
     display: inline-block;
     cursor: pointer;
@@ -1514,7 +1518,7 @@ a:hover {
     position: absolute;
     content: '';
     width: 0%;
-    height: 2px;
+    height: 0px;
     opacity: .5;
     top: 40%;
     background: #fff;
@@ -1529,11 +1533,12 @@ a:hover {
 
 
 .grid-nav li.active {
-    color: #ec0a45;
+    color: #fff;
     background-color: transparent;
+    opacity: 1;
 }
 
-.grid-nav li.active:before {
+/*.grid-nav li.active:before {
     position: absolute;
     content: '';
     width: 100%;
@@ -1544,7 +1549,7 @@ a:hover {
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-}
+}*/
 
 .item-grid {
     margin-bottom: 30px;
