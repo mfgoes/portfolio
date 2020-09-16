@@ -291,51 +291,6 @@ if ($(window).width() > 481) {
 });
 
 
-// postContentImg
-// featuresSlider 
-
-$('.slider.post-content-img, .slider.features-slider').slick({
-    speed: 400,
-    infinite: true,
-    autoplay: true,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    arrows: false,
-    dots: true,
-    responsive: [
-        {
-            breakpoint: 767,
-            settings: {
-                arrows: false,
-                slidesToShow: 1
-            }
-        }
-                ]
-});
-
-// testimonialsSlider
-$('.slider.testimonials-slider').slick({
-    speed: 3000,
-    infinite: true,
-    autoplay: true,
-    slidesToShow: 2,
-    slidesToScroll: 2,
-    arrows: false,
-    dots: true,
-    responsive: [
-        {
-            breakpoint: 767,
-            settings: {
-                arrows: false,
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }
-                ]
-});
-
-
-
 ! function(e, t) {
     "use strict";
     "object" == typeof module && "object" == typeof module.exports ? module.exports = e.document ? t(e, !0) : function(e) {
