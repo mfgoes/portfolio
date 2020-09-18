@@ -294,11 +294,11 @@ if ($(window).width() > 481) {
 // postContentImg
 // featuresSlider 
 
-$('.slider.post-content-img, .slider.features-slider').slick({
-    speed: 400,
-    infinite: true,
-    autoplay: true,
-    slidesToShow: 2,
+$('.slider').slick({
+    speed: 2000,
+    infinite: false,
+    autoplay: false,
+    slidesToShow: 4,
     slidesToScroll: 1,
     arrows: false,
     dots: true,
@@ -307,7 +307,26 @@ $('.slider.post-content-img, .slider.features-slider').slick({
             breakpoint: 767,
             settings: {
                 arrows: false,
-                slidesToShow: 1
+                slidesToShow: 2
+            }
+        }
+                ]
+});
+
+$('.slider.about,').slick({
+    speed: 600,
+    infinite: true,
+    autoplay: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    arrows: false,
+    dots: true,
+    responsive: [
+        {
+            breakpoint: 767,
+            settings: {
+                arrows: false,
+                slidesToShow: 2
             }
         }
                 ]
