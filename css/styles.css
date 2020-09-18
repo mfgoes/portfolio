@@ -65,7 +65,7 @@ body {
     line-height: 1.5;
     font-family: 'Open Sans', Merriweather Sans, 'Source Sans Pro', sans-serif;
     font-weight: 400;
-    background: #121212;
+    background: #060607;
     position: relative;
 }
 
@@ -208,7 +208,7 @@ hr {
 }
 
 .title_white h2{
-    color: #ffffffeb;
+    color: #ffffff;
     margin: 10px;
     text-align: left;
     font-size: 2em;
@@ -437,11 +437,11 @@ a:hover {
 
 .top-nav {
     padding: 8px 0;
-    background-color: #121212;
+    background-color: #060607;
 }
 
 .nav-open {
-    background-color: #121212;
+    background-color: #060607;
 }
 
 .navbar-brand {
@@ -1699,6 +1699,10 @@ a:hover {
 .slider div{
     margin: 5px; 
 }
+.slider div p {
+    color: #878787;
+    font-weight: 600;
+}
 
 .img_full {
     width: 100%;
@@ -1919,7 +1923,7 @@ a:hover {
 
 .about-page p, .about-page {
     color: #f4f4f4;
-    line-height: 2em;
+ 
 }
 .about-page h2 {
     margin-bottom: 10px;
@@ -2055,20 +2059,21 @@ a:hover {
 
 .about-page h4 {
     color: white;
-    font-size: 1em;
     font-weight: 600;
     margin-bottom: 5px;
 }
 .about-page p {
     font-size: 1em;
     font-weight: 500;
-    letter-spacing: 0.2px;
 }
 .about-page .box p {
-  color: #BBBBBB;
+  color: #9099a4;
   /*background-color: #141618;
   border-radius: 2px;*/
   padding: 0px 0px 5px;
+  font-size: 0.85em;
+  font-weight: 500;
+  line-height: 1em;
 }
 
 @media (max-width: 1108px)  {
