@@ -1,13 +1,5 @@
 /*---------------------------------------
 
-Project: Sulz - Creative Portfolio Template 
-TemplateVersion: 1.0
-Author: YasirKareem
-
-
-Old color: ec0a45 (gold)
-New color: ec0a45 (red)
-;
 01. Default
     01.1 HTML, Body
     01.2 H1, H2, H3 P
@@ -52,26 +44,24 @@ New color: ec0a45 (red)
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 
+/*
 @font-face {
 font-family: "TGothicFB-BoldWide";
 src: url("../fonts/TitlingGothicFB-BoldWide.ttf");
 src: url("../fonts/TitlingGothicFB-BoldWide.woff") format("woff")
-}
+}*/
 
 html,
 body {
     height: 100%;
     font-size: 15px;
     line-height: 1.5;
-    font-family: 'Open Sans', Merriweather Sans, 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', Merriweather Sans, sans-serif;
     font-weight: 400;
-    background: #060607;
+    background-color: #060607;
     position: relative;
 }
 
-.body-white {
-    background: #fff;
-}
 
 
 /* H1, H2, H3 */
@@ -79,7 +69,7 @@ body {
 h1,
 h2,
 h3 {
-    font-family: Open Sans, Source Sans Pro, sans-serif;
+    font-family: Open Sans, sans-serif;
     margin: 0;
     font-weight: 400;
     text-transform: capitalize;
@@ -1448,7 +1438,7 @@ a:hover {
         text-decoration: none;
     }
     .title_white h2{
-        text-align: left;
+        text-align: center;
     }
 
     .item-text {
@@ -1966,6 +1956,14 @@ a:hover {
     margin-top: 0px;
 }
 
+#contact-section /*only used in contact section for now*/
+{
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
 
 .contact-section h2 {
     font-size: 2em; 
@@ -1983,12 +1981,14 @@ a:hover {
 }
 
 .special-font {
-    font-family: TGothicFB-BoldWide, Source Sans Pro, sans-serif;
+    font-family: Open Sans, sans-serif;
     margin-bottom: 10px;
+    font-weight: 900;
 }
 
 .contact-section a {
      text-decoration: underline;
+     line-height: 2em;
 }
 .contact-section a:hover {
     color: #ec0a45;
@@ -3082,6 +3082,10 @@ textarea {
     margin: 0 -15px;
 }
 
+.slick-image {
+	width: 90%;
+	margin-bottom: 20px;
+}
 
 
 
