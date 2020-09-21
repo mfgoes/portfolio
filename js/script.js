@@ -313,24 +313,6 @@ $('.slider').slick({
                 ]
 });
 
-$('.slider.about,').slick({
-    speed: 2000,
-    infinite: true,
-    autoplay: true,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    arrows: false,
-    dots: true,
-    responsive: [
-        {
-            breakpoint: 767,
-            settings: {
-                arrows: false,
-                slidesToShow: 2
-            }
-        }
-                ]
-});
 
 // testimonialsSlider
 $('.slider.testimonials-slider').slick({
