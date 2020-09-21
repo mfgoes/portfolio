@@ -295,7 +295,7 @@ if ($(window).width() > 481) {
 // featuresSlider 
 
 $('.slider').slick({
-    speed: 2000,
+    speed: 300,
     infinite: false,
     autoplay: false,
     slidesToShow: 4,
@@ -314,7 +314,7 @@ $('.slider').slick({
 });
 
 $('.slider.about,').slick({
-    speed: 600,
+    speed: 2000,
     infinite: true,
     autoplay: true,
     slidesToShow: 4,

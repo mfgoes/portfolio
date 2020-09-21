@@ -143,7 +143,6 @@ p, .inline-link {
 .inline-link:hover {
     color: #ec0a45;
     text-decoration: underline;
-    letter-spacing: 1px;
     cursor: pointer;
     -webkit-transition: all .1s ease-in-out;
     -o-transition: all .2s ease-in-out;
@@ -3114,11 +3113,11 @@ textarea {
     border: 0;
     outline: none;
     border-radius: 0%;
-    background: #f2f2f2;
+    background: #BBBBBB;
 }
 
 .slick-dots li.slick-active button {
-    background: #d8d8d8;
+    background: #222;
 }
 
 /*--- Start Scroll Top ---*/
