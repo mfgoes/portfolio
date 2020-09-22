@@ -63,7 +63,9 @@ body {
 }
 
 
-
+.body-white {
+    background-color: white;
+}
 /* H1, H2, H3 */
 
 h1,
