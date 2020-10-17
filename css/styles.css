@@ -439,6 +439,7 @@ a:hover {
     margin-right: 25px;
     margin-top: 8px;
     padding-top: 1px;
+    padding-left: 0px;
     height: 55px;
 }
 
@@ -1284,6 +1285,15 @@ a:hover {
     background-size: cover;
 }
 
+.item-img-messenger {
+    height: 600px;
+    width: 100%;
+    background: url('../img/background/messagedesigner.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+
 .item-img-evbox {
     height: 600px;
     width: 100%;
@@ -1379,7 +1389,7 @@ a:hover {
 
 .item-text {
     position: relative;
-    margin-top: 10px;
+    margin-top: 10px; margin-left: 10px;
     bottom: 0px;
     padding-left: 0px;
     letter-spacing: 0.01em;
@@ -1417,6 +1427,15 @@ a:hover {
 }
 
 
+/*This keeps the aspect ratio fixed*/
+.grid_responsive{ 
+      height: 100%;
+      overflow: visible; /*was hidden*/
+      border-radius: 10px;
+      position: relative;
+      padding-top: 56.25%;
+    }
+
 
 
 /* Img responsiveness for homepage: Added by Mischa */
@@ -1425,11 +1444,10 @@ a:hover {
     /* Item Text */
 
     .item-text p {
-        color: #ec0a45;
-        margin-bottom: 5px;
-        margin-top: 5px;
-        display: none;
-        text-transform: uppercase;
+        color: #9099A4;
+        margin-bottom: 15px;
+        font-weight: 600;
+        font-size: 0.8em;
     }
     .item-text a {
         margin-top: 5px;
@@ -1442,12 +1460,20 @@ a:hover {
     }
     .title_white h2{
         text-align: center;
+       font-size: 1.2em;
     }
 
+    .grid_responsive {
+        border-radius: 5px;
+    }
+
+
     .item-text {
-        bottom: 30px;
-        padding-left: 30px;
-        left: -150%;
+        position: relative;
+        margin-top: 10px; margin-left: 0px; margin-bottom: 20px;
+        bottom: 0px;
+        padding-left: 0px;
+        letter-spacing: 0em;
         -webkit-transition: all .3s ease-in-out;
         -o-transition: all .3s ease-in-out;
         transition: all .3s ease-in-out;
@@ -1466,8 +1492,9 @@ a:hover {
     padding-bottom: 70px;
 }
 
+
 .grid-nav {
-    margin: 0 0 20px 15px;
+    margin: 0 0 20px 20px;
     font-size: 1em;
 }
 
@@ -1546,15 +1573,6 @@ a:hover {
     overflow: hidden;
 
 }
-
-/*This keeps the aspect ratio fixed*/
-.grid_responsive{ 
-      height: 100%;
-      overflow: visible; /*was hidden*/
-      border-radius: 10px;
-      position: relative;
-      padding-top: 56.25%;
-    }
 
 .aspect-ratio-box-inside {
   position: absolute;
@@ -3367,6 +3385,7 @@ footer .social,
     }
     .navbar-brand {
         padding-top: 0px;
+        padding-left: 0px;
         height: 43px;
         margin-top: 3px;
 
