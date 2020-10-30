@@ -296,6 +296,7 @@ a:hover {
      letter-spacing: 0.1em;
      text-transform: capitalize;
      font-size: 1em;
+     font-weight: 800;
 }
 
 .secondary
@@ -305,6 +306,15 @@ a:hover {
     min-width: 160px;
     border: 1px solid white;
     border-radius: 5px;
+}
+
+.secondary 
+.btn-primary {
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    min-width: 160px;
+    background: #1465FF;
+    border-radius: 2px;
 }
 .red {
     color: #fff;
@@ -1322,7 +1332,7 @@ a:hover {
 .item-img-posters {
     height: 600px;
     width: 100%;
-    background: url('../img/background/FREE2.jpg') no-repeat center center;
+    background: url('../img/background/posters_bgr.jpg') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -1460,7 +1470,7 @@ a:hover {
     }
     .title_white h2{
         text-align: center;
-       font-size: 1.2em;
+       font-size: 1.3em;
     }
 
     .grid_responsive {
@@ -2102,6 +2112,15 @@ a:hover {
 }
 
 @media (max-width: 768px)  {
+
+    .header-intro, .header-intro h2 {
+    padding: 80px 0px 20px;
+    text-align: center;
+    height: auto;
+    text-transform: none;
+    font-family: Merriweather Sans, Source Sans Pro, sans-serif;
+    line-height: 1.4;
+}
 
     .special-center {
     align-items:center;

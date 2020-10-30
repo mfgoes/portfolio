@@ -17,7 +17,7 @@ document.write("						<li>");
 document.write("							<a href=\"https:\/\/www.behance.net\/mfgoes\"><i class=\"fab fa-behance\"><\/i><\/a>");
 document.write("						<\/li>");
 document.write("						<li>");
-document.write("							<a href=\"https:\/\/twitter.com\/cell3d_game\"><i class=\"fab fa-twitter\"><\/i><\/a>");
+document.write("							<a href=\"https:\/\/twitter.com\/MischaProjects\"><i class=\"fab fa-twitter\"><\/i><\/a>");
 document.write("						<\/li>");
 document.write("					<\/ul>");
 document.write("				<\/div>");
