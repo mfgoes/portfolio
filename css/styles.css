@@ -1290,7 +1290,7 @@ a:hover {
 .item-img-crowd2 {
     height: 600px;
     width: 100%;
-    background: url('../img/background/designecologist-LaXKEJVB0_M-unsplash.jpg') no-repeat center center;
+    background: url('../img/background/crowd cinematicimg.jpg') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -1633,7 +1633,7 @@ a:hover {
     height: 0;
     overflow: hidden;
     position: relative;
-    padding-top: 40%; /*56.25%;*/
+    padding-top: 30%; /*56.25%;*/
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -2387,7 +2387,7 @@ a:hover {
         height: 0;
         overflow: hidden;
         position: relative;
-        padding-top: 56.25%; /*56.25%;*/
+        padding-top: 46.25%; /*56.25%;*/
         -webkit-background-size: cover;
         background-size: cover;
     }
