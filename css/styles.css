@@ -1298,11 +1298,18 @@ a:hover {
 .item-img-messenger {
     height: 600px;
     width: 100%;
-    background: url('../img/background/messagedesigner.jpg') no-repeat center center;
+    background: url('../img/messagedes/MessageGen Hero Symmetrical.jpg') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
 }
 
+.item-img-messenger2 {
+    height: 600px;
+    width: 100%;
+    background: url('../img/messagedes/backgrounds/MessageGen Hero2.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
 
 .item-img-evbox {
     height: 600px;
