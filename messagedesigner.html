@@ -14,10 +14,11 @@
     <link rel="stylesheet" href="css/fontawesome.min.css">
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
-    <!-- Slick -->
-    <link rel="stylesheet" href="css/slick.css" />
     <!-- Styles -->
     <link rel="stylesheet" href="css/styles.css">
+    <!-- Lightbox (Personalized version) -->
+    <link rel="stylesheet" href="css/lightbox.css">
+    
     <!-- favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/favicon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon.png">
@@ -28,12 +29,31 @@
     <meta name="msapplication-TileImage" content="img/favicons/favicon.png">
     <meta name="msapplication-config" content="img/favicons/browserconfig.xml">
     <meta name="theme-color" content="#16181a">
- 	<meta name="description" content="Online Design tool for personalized messaging.">
-   <meta name="keywords" content="UX Design, Webdesign, CrowdMedia, Webapp, Message Generator, Screenshot Generator, iphone">
-   <meta name="author" content="Mischa Design">
-   <meta property="og:image" content="https://mischadesign.com/img/messagedes/backgrounds/Thumbnail - Behance.jpg">
-   <!-- Include this to make the og:image larger -->
-   <meta name="twitter:card" content="summary_large_image">
+    <!--basic metadata -->
+    <meta name="twitter:widgets:csp" content="on">
+    <meta name="language" content="english">
+    <meta name="distribution" content="global">
+    <meta name="author" content="Mischa Design">
+
+    <!-- Thumbnail metadata -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://mir-s3-cdn-cf.behance.net/project_modules/1400/4eb1bb108617929.5fc664f208e0c.jpg">
+    <meta name="twitter:site" content="@MischaProjects">
+    <meta name="twitter:title" content="Message Designer WebApp">
+    <meta name="twitter:description" content="Interaction Design,Product Design">
+    <meta name="twitter:app:id:iphone" content="489667151">
+    <meta name="twitter:app:name:iphone" content="Mischa Design">
+    <meta name="twitter:creator" content="@MischaProjects">
+    <meta property="og:image" content="https://mir-s3-cdn-cf.behance.net/project_modules/1400/4eb1bb108617929.5fc664f208e0c.jpg">
+    <meta property="og:url" content="https://mischadesign.com/messagedesigner.html">
+    <meta property="og:owners" content="Mischa vd Goes">
+    <meta property="og:site_name" content="Mischa Design">
+    <meta property="og:type" content=":project">
+    <meta property="fb:app_id" content="229702757350">
+    <meta property="og:image:width" content="1400">
+    <meta property="og:image:height" content="728">
+    <meta property="og:title" content="Message Designer WebApp">
+    <meta property="og:owners" content="Mischa vd Goes">
 
 	<style>
 	    a {
@@ -43,22 +63,12 @@
 	    ::selection {
 	    background: #4747D8;
 	    }
-
-	    @media (max-width: 700px) {
-	    	iframe {
-	    		height: auto;
-	    	}
-	    }
-
 	</style>
-
 </head>
-
 <body >
     <!-- Start Navbar -->
             <script type="text/javascript" src="includes/menu_snippet.js"></script>
     <!-- End Navbar -->
- 
     <!-- Start Header About Studio -->
     <header class="about-studio item-img-messenger2 img-header">
         <div class="overlay grained"></div>
@@ -95,45 +105,44 @@
                 </div>
             </div>
             <!-- End Post Info -->
-            
             <!-- Start Post Content Text -->
             <div class="post-content-text">
-                <!-- Text 1 -->
-                <div class="text_section">
-                	<h2>Message Designer</h2>
-                	<p>Message Designer is a web service made for the marketing team at Crowd Media. As part of its efforts to promote their global Q&A services through influencer content, it allows the creation of hassle free messaging animations without the need for complex software such as After Effects. This allowed the marketing team to easily insert animations in organic influencer content on social media. Secondly, it allows you to export the code styling to Crowd Media's chatbot technologies used in their e-commerce branch. Personalizing the designs to various brands or products has helped increase sales activation through qualitative visual consistency and maintaining brand guidelines.</p> <br><br>
-                	<p><STRONG>UX Research: </STRONG> Inspired by competitor solutions, I've created the interface that focused on the priorities and needs of the marketing team at Crowd Media. Through early prototypes (created in MarvelApp) and user interviews, I've  cut down redesigns and performed qualitative usability testing that shaped the core features of the end-product. </p>
-                </div>
 
-               <img class ="img_full_nomargin"src="img/messagedes/main screen generator.jpg" alt="">
-                <div class="text_section"> <!--add arrow image here somehow-->
-                	<h2>Features</h2>
-                	<p>Create beautiful messaging mockups by editing colors, fonts, backgrounds, and other details Export your files as videos, PNGs, or HTML/CSS.  A list of 5+ templates are available to choose form.</p>
-                </div>
+           <div class="row">
 
-               <img class ="img_full_nomargin"src="img/messagedes/Export File (Special Pop up).jpg" alt="">
-               <iframe src="https://player.vimeo.com/video/485739290?autoplay=1&loop=20&autopause=0" width="100%" height="616" title="false" byline="false" frameborder="0" loop="true" allowfullscreen></iframe>
+         <!-- Text 1 -->
+         <div class="text_section">
+          	<h2>Message Designer</h2>
+          	<p>Message Designer is a web service made for the marketing team at Crowd Media. As part of its efforts to promote their global Q&A services through influencer content, it allows the creation of hassle free messaging animations without the need for complex software such as After Effects. This allowed the marketing team to easily insert animations in organic influencer content on social media. Secondly, it allows you to export the code styling to Crowd Media's chatbot technologies used in their e-commerce branch. Personalizing the designs to various brands or products has helped increase sales activation through qualitative visual consistency and maintaining brand guidelines.</p> <br><br>
+          	<p><STRONG>UX Research: </STRONG> Inspired by competitor solutions, I've created the interface that focused on the priorities and needs of the marketing team at Crowd Media. Through early prototypes (created in MarvelApp) and user interviews, I've  cut down redesigns and performed qualitative usability testing that shaped the core features of the end-product. </p>
+          </div>
+                 <a class="example-image-link" href="img/messagedes/main screen generator.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="img_full_nomargin example-image " src="img/messagedes/main screen generator.jpg" alt=""/></a>
+          <div class="text_section"> <!--add arrow image here somehow-->
+          	<h2>Features</h2>
+          	<p>Create beautiful messaging mockups by editing colors, fonts, backgrounds, and other details Export your files as videos, PNGs, or HTML/CSS.  A list of 5+ templates are available to choose form.</p>
+          </div>
 
-               <img class ="img_full_nomargin"src="img/messagedes/messagedesigner-2.jpg" alt="">
-               <img class ="img_full_nomargin"src="img/messagedes/messagedesigner-4.jpg" alt="">
-               
-               
+          <a class="example-image-link" href="img/messagedes/Export File (Special Pop up).jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="img_full_nomargin example-image " src="img/messagedes/Export File (Special Pop up).jpg" alt=""/></a>
+
+          <div class='embed-container'>
+					 <iframe src="https://player.vimeo.com/video/485739290?autoplay=1&loop=10&autopause=0&sidedock=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen loop="true" title="false" byline="false" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+				  </div>
+          <a class="example-image-link" href="img/messagedes/messagedesigner-2.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="img_full_nomargin example-image " src="img/messagedes/messagedesigner-2.jpg" alt=""/></a>
+          <a class="example-image-link" href="img/messagedes/messagedesigner-4.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="img_full_nomargin example-image " src="img/messagedes/messagedesigner-4.jpg" alt=""/></a>
 
                <!-- Text 2 -->
                 <div class="text_section">
                 	<h2>Use Cases</h2>
                 	<p>The main use of Message Designer was to export animated graphics for advertisements of <strong>Crowd Media's Q&A technologies</strong> that make up integral parts of the business. These were often used along with influencer content across multiple platforms and a global reach of 20+ countries. Due to the non-design backgrounds, it was essential to create a product that was easy to use while providing a flexible and professional end product. </p>
                 </div>
+               <a class="example-image-link" href="img/messagedes/messagedesigner-Landscape.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="img_full_nomargin example-image " src="img/messagedes/messagedesigner-Landscape.jpg" alt=""/></a>
+               <a class="example-image-link" href="img/messagedes/phonemockup-messagedesigner.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="img_full_nomargin example-image " src="img/messagedes/phonemockup-messagedesigner.jpg" alt=""/></a>
 
-
-               <img class ="img_full_nomargin"src="img/messagedes/messagedesigner-Landscape.jpg" alt="">
-               <img class ="img_full"src="img/messagedes/phonemockup-messagedesigner.jpg" alt="">
                           
             </div>
 
             <!-- "Up next" section Add header with color here-->
             <section class="section-padding up-next">
-                <div class="container">
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <h2>Up Next</h2>
                         <h3 class="title_black">Social Bootcamp</h3>
@@ -144,7 +153,7 @@
                         </div></a>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12"><img alt="" class="img_full" src="img/up_next/bootcamp_next.png"></div>
-                </div>
+               
             </section>
             <!-- END: UP NEXT-->
 
@@ -163,11 +172,10 @@
     
     <!-- script -->
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/lightbox.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/bootstrap-dropdownhover.min.js"></script>
-    <script type="text/javascript" src="js/slick.min.js"></script>
-    <script type="text/javascript" src="js/lightbox.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
-
+    <script type="text/javascript" src="js/lightbox-simplified.js"></script>
 </body>
 </html>
