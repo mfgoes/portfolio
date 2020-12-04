@@ -146,7 +146,7 @@ p, .inline-link {
 }
 
 a{
-    color: #2783FF;
+    color: gray;
     -webkit-transition: all .2s ease-in-out;
     cursor: pointer;
     display: block;

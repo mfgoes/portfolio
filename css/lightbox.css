@@ -9,7 +9,7 @@ body.lb-disable-scrolling {
   z-index: 9999;
   background-color: black;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  opacity: 0.8;
+  opacity: 0.9; /*was 0.8*/
   display: none;
 }
 
@@ -32,7 +32,8 @@ body.lb-disable-scrolling {
   border-radius: 3px;
 
   /* Image border */
-  border: 4px solid white;
+  /*border: 4px solid white;*/
+  border: 0px;
 }
 
 .lightbox a img {
@@ -49,7 +50,7 @@ body.lb-disable-scrolling {
 
   /* Background color behind image.
      This is visible during transitions. */
-  background-color: white;
+  background-color: black;
 }
 
 .lb-outerContainer:after {
@@ -184,6 +185,44 @@ body.lb-disable-scrolling {
 .lb-data .lb-close {
   display: block;
   float: right;
+  width: 35px;
+  height: 35px;
+  border-radius: 25px;
+  background: url(../img/lightbox/close.png) top right no-repeat;
+  background-color: #565656;
+  background-position: center;
+  background-size: 15px 15px;
+  text-align: right;
+  outline: none;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 1;
+  -webkit-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
+.lb-data .lb-close:hover {
+  cursor: pointer;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+  background-color: #696969;
+}
+
+@media (max-width: 900px)  {
+   .lb-data .lb-close {
+    background-color: #69696965;
+   }
+
+
+  .lightboxOverlay {
+    opacity: 1;
+  }
+}
+
+/*.lb-data .lb-close {
+  display: block;
+  float: right;
   width: 30px;
   height: 30px;
   background: url(../img/lightbox/close.png) top right no-repeat;
@@ -202,3 +241,4 @@ body.lb-disable-scrolling {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
+*/
