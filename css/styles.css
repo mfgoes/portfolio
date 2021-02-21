@@ -53,12 +53,24 @@ src: url("../fonts/TitlingGothicFB-BoldWide.woff") format("woff")
 
 html,
 body {
+    --color-text: #0c0c0c;
+    --color-bg: #0c0c0c;
+    --color-link: #fff;
+    --color-link-hover: #ec0a45;
+    --color-content-title-sub: #CCCCCC;
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    --cursor-stroke: #ec0a45;
+    --cursor-fill: none;
+    --cursor-stroke-width: 1px;
+    font-family: Merriweather Sans, -apple-system, BlinkMacSystemFont, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
     height: 100%;
     font-size: 15px;
     line-height: 1.5;
-    font-family: 'Open Sans', Merriweather Sans, sans-serif;
     font-weight: 400;
-    background-color: #060607;
     position: relative;
 }
 
@@ -325,7 +337,6 @@ a:hover {
     border-radius: 5px;
 }
 
-.secondary 
 .btn-primary {
     text-align: center;
     padding: 10px 20px 10px 20px;
@@ -484,9 +495,8 @@ a:hover {
 }
 
 .navbar-nav > li {
-    margin-right: 35px;
-    padding: 20px 0;
-    padding-top: 22px;
+   margin-right: 2rem;
+   padding-top: 22px;
 }
 
 .navbar-nav > li:last-child {
@@ -497,17 +507,16 @@ a:hover {
     padding: 0;
     color: #d5d5d5;
     font-family: Merriweather Sans, Source Sans Pro, sans-serif;
-    font-weight: 300;
-    letter-spacing: 0.1em;
     font-size: 0.9em;
 }
 
 .navbar-default .navbar-nav > li > a {
     color: #F4F4F4;
     position: relative;
+    font-weight: 600;
     font-family: Merriweather Sans, Source Sans Pro, sans-serif;
     line-height: 1.5;
-    text-transform: uppercase;
+    text-transform: capitalize;
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
@@ -3637,3 +3646,18 @@ footer .social,
 
 
 
+/*--Cursor */
+@media (any-pointer: fine) {
+    .cursor {
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: block;
+        pointer-events: none;
+    }
+    .cursor__inner {
+        fill: var(--cursor-fill);
+        stroke: var(--cursor-stroke);
+        stroke-width: var(--cursor-stroke-width);
+    }
+}
