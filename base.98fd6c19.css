@@ -11,7 +11,7 @@
 
 @font-face {
 font-family: "GrandSlang-Roman";
-src: url("../fonts/GrandSlang-Roman.otf");
+src: url("fonts/GrandSlang-Roman.otf");
 }
 
 html, 
@@ -388,6 +388,7 @@ a:focus {
      font-size: 1em;
      letter-spacing: 0.1em;
      color: #F4F4F4;
+     z-index: 1000;
 }
 
 .secondary
@@ -438,7 +439,7 @@ a:focus {
     }
 
 .content__title {
-	font-size: 14vw;
+	font-size: 12vw;
 }
 
 .content__title-sub {
