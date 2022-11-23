@@ -1325,6 +1325,23 @@ a:hover {
     background-size: cover;
 }
 
+.item-img-mendix {
+    height: 600px;
+    width: 100%;
+    background: url('../img/mendix/banner_audits.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.item-img-mendix2 {
+    height: 600px;
+    width: 100%;
+    background: url('../img/mendix/Audits - second banner.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+
 .item-img-evbox {
     height: 600px;
     width: 100%;
