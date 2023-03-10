@@ -18,6 +18,7 @@ document.write( '                    <!-- End Contact -->\n' );
 document.write( '                    <!-- Start Works -->\n' );
 document.write( '                      <li class=\"dropdown\"><a href=\"index.html\" class=\"click-close dropdown-toggle\">My Work\n' );
 document.write( '                        <ul class=\"dropdown-menu\">\n' );
+document.write( '                            <li><a class=\"click-close\" href=\"mendix.html\">Mendix</a></li>\n' );
 document.write( '                            <li><a class=\"click-close\" href=\"crowdmedia.html\">Crowd Media</a></li>\n' );
 document.write( '                            <li><a class=\"click-close\" href=\"bootcamp.html\">Social Bootcamp</a></li>\n' );
 document.write( '                            <li><a class=\"click-close\" href=\"evbox.html\">EVBox Concept Page</a></li>\n' );

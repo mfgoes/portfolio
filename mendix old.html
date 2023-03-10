@@ -34,31 +34,71 @@
     <meta name="msapplication-config" content="img/favicons/browserconfig.xml">
     <meta name="theme-color" content="#16181a">
 
+    <!--[if lt IE 9]>
+     <script src="js/html5shiv.min.js"></script>
+     <script src="js/respond.min.js"></script>
+    <![endif]-->
 </head>
 
 <body >
-    <!-- Start Navbar (static)-->
-    <script type="text/javascript" src="includes/menu_snippet.js"></script>
+    <!-- Start Navbar -->
+            <script type="text/javascript" src="includes/menu_snippet.js"></script>
     <!-- End Navbar -->
+
+    
+
+    <!-- Start Header About Studio -->
+    <!-- OLD: <header class="header about-studio item-img-2"> -->
+    <header class="about-studio item-img-mendix2 img-header" id="gradientcontainer">
+        <div class="overlay"></div>
+        <div class="container">
+
+
+            <!-- Title 
+            <div class="title">
+                <span>Lorem Ipsum is simply dummy</span>
+                <h1>who are we</h1>
+            </div>
+            -->
+            
+        </div>
+    </header>
+    <!-- End Header About Studio -->
 
 
     <!-- Start Post Content -->
-    <section class="post-content section-padding body-white">
-
-        <div class="container margin-top40 align-middle">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-                <p class="header-label">Case Study</p>
-                <h1 class="text-black">My Role at</h1>
-                <h1 class="text-black strong">Mendix</h1>
-            </div>
-            
-            <div class="col-lg-6 col-md-6 col-sm-12">
-                <img class="img-responsive" src="img/mendix/Audits/Audits - second banner.jpg" alt="">
-            </div>
-        </div>
-
-
+    <section id="our-story" class="post-content section-padding body-white">
         <div class="container">
+
+            <!-- Start Post Info -->
+            <div class="post-info clearfix">
+                <div class="row">
+                    <!-- Start Service -->
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="service">
+                            <span>ABOUT</span>
+                            <p>Design process</p>
+                        </div>
+                    </div>
+                    <!-- Start Client -->
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="client">
+                            <span>Client</span>
+                            <p>Mendix</p>
+                        </div>
+                    </div>
+                    <!-- Start Date -->
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="date">
+                            <span>Date</span>
+                            <p>Mar 2021 - Present</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Post Info -->
+            
+
             <!-- Start Post Content Text -->
             <div class="post-content-text">
                 <h2>My role at Mendix</h2>
@@ -161,13 +201,7 @@
     <script type="text/javascript" src="js/script.js"></script>
 
    
-</body>
 
-    <style> 
-    /*custom styling for this page*/
-    .navbar-fixed-top {
-        background-color: #060607;
-    }
-    </style>
+</body>
 
 </html>
