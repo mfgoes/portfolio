@@ -86,6 +86,7 @@ body {
     width: auto;
     padding: 0px;
     margin: 0px;
+    margin-top: 4px;
 }
 
 .cards {
@@ -106,6 +107,8 @@ body {
     padding: 1rem;
     align-items: stretch;
   }
+
+
 
   .card {
     display: flex; 
@@ -335,12 +338,13 @@ header {
     font-weight: 800;
 }
 
-
 .align-middle {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: center;
 } 
+
+
 
 .mt-2 {
     margin-top: 20px;
@@ -374,9 +378,12 @@ header {
     
     .align-middle {
         display: block;
-        padding: 0px;
-        padding-top: 4px;
+        padding-top: 4px; 
+        padding-bottom: 4px;
     }  
+    .card .align-middle {
+        display: flex;
+    }
     .align-middle div{
         margin: 20px 0px;
     }
@@ -474,6 +481,15 @@ a:hover {
     border-radius: 5px;
 }
 
+.btn-link {
+    color: #1465FF;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    color: #1465FF;
+    text-decoration: underline;
+}
 .btn-primary {
     text-align: center;
     padding: 10px 20px 10px 20px;
@@ -2032,7 +2048,23 @@ a:hover {
 .up-next img {
     padding-right:15px;
     width: 100%;
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
 }
+
+.up-next h4 {
+    margin-bottom: 4px;
+}
+
+.img-card-sm {
+    width: 140px;
+  }
+
+  .img-card-sm img {
+    padding-right: 0px;
+  }
+
+
 .up-next h2 {
     font-size: 1em;
     text-transform: uppercase;
@@ -2043,7 +2075,6 @@ a:hover {
 
 .title_black {
     color: #1F1F1F;
-    font-size: 1.8em;
 }
 
 .title_grey {
@@ -2334,6 +2365,10 @@ a:hover {
         width: 300px;
         height: auto;
     }
+
+    .img-card-sm {
+        width: 40%;
+      }
 }
 
 /* Scroll Down */
