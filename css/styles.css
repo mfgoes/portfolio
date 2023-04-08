@@ -1487,7 +1487,7 @@ a:hover {
 .item-img-mendix {
     height: 600px;
     width: 100%;
-    background: url('../img/mendix/banner_audits.jpg') no-repeat center center;
+    background: url('../img/mendix/banner_top.jpg') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
 }
