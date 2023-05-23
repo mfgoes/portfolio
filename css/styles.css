@@ -194,8 +194,7 @@ h2 {
 }
 
 h3 {
-    font-weight: 900;
-    font-size: 1.2em;
+    font-weight: 600;
     color: #fff;
 }
 
@@ -1275,12 +1274,12 @@ a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(25, 25, 25, .5);
+    background-color: rgba(25, 25, 25, .2);
     opacity: 0;
     top: 0;
-    -webkit-transition: all .6s ease-in-out;
-    -o-transition: all .6s ease-in-out;
-    transition: all .6s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 
 
@@ -1487,10 +1486,12 @@ a:hover {
 .item-img-mendix {
     height: 600px;
     width: 100%;
-    background: url('../img/mendix/banner_top.jpg') no-repeat center center;
+    background: url('../img/mendix/banner_audits.jpg') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
+    transform-origin: center;
 }
+
 
 .item-img-mendix2 {
     height: 600px;
@@ -1612,7 +1613,7 @@ a:hover {
 .item-text p {
     color: #9099A4;
     margin-bottom: 15px;
-    font-weight: 900;
+    font-weight: 600;
     font-size: 1em;
 }
 
@@ -1635,14 +1636,20 @@ a:hover {
 
 
 /*This keeps the aspect ratio fixed*/
-.grid_responsive{ 
+.grid_responsive { 
       height: 100%;
+      transition: 0.3s;
       overflow: visible; /*was hidden*/
       border-radius: 10px;
       position: relative;
       padding-top: 56.25%;
-    }
-
+      transform-origin: bottom right 60px;
+}
+.grid_responsive:hover {
+    transform-origin: bottom right 60px;
+    width: 102%;
+    transition: 0.3s;
+}
 
 
 /* Img responsiveness for homepage: Added by Mischa */
@@ -1706,9 +1713,14 @@ a:hover {
 }
 
 .selectedprojects {
-    font-weight: 900;
     font-size: 1em;
+    color: #9099A4;
+    font-weight: 600;
 }
+.selectedprojects:hover {
+    color: #9099A4;
+}
+
 
 .grid-nav ul {
     margin: 0;
@@ -1733,11 +1745,6 @@ a:hover {
     margin: 0;
 }
 
-.grid-nav li:focus,
-.grid-nav li:hover {
-    color: #ec0a45;
-}
-
 .grid-nav li:before {
     position: absolute;
     content: '';
@@ -1757,7 +1764,7 @@ a:hover {
 
 
 .grid-nav li.active {
-    color: #fff;
+    /*color: #fff;*/
     background-color: transparent;
     opacity: 1;
 }
