@@ -53,7 +53,7 @@ src: url("../fonts/TitlingGothicFB-BoldWide.woff") format("woff")
 html,
 body {
     --color-text: #0c0c0c;
-    --color-bg: #0c0c0c;
+    --color-bg: #1c1e1f;
     --color-link: #fff;
     --color-link-hover: #ec0a45;
     --color-content-title-sub: #CCCCCC;
@@ -163,7 +163,7 @@ body {
 h1,
 h2,
 h3 {
-    font-family: Open Sans, sans-serif;
+    font-family: Merriweather Sans, Source Sans Pro, sans-serif;
     margin: 0;
     font-weight: 400;
     text-transform: capitalize;
@@ -289,7 +289,7 @@ hr {
 }
 
 .title_white h2{
-    color: #ffffff;
+    color: #ededed;
     margin: 10px;
     text-align: left;
     font-size: 2em;
@@ -614,11 +614,11 @@ a:hover {
 
 .top-nav {
     padding: 4px 0;
-    background-color: #060607;
+    background-color: var(--color-bg);
 }
 
 .nav-open {
-    background-color: #060607;
+    background-color: var(--color-bg);
 }
 
 .navbar-brand {
@@ -1661,7 +1661,7 @@ a:hover {
         color: #9099A4;
         margin-bottom: 15px;
         font-weight: 600;
-        font-size: 0.8em;
+        /*font-size: 0.8em;*/
     }
     .item-text a {
         margin-top: 5px;
@@ -1673,8 +1673,7 @@ a:hover {
         text-decoration: none;
     }
     .title_white h2{
-        text-align: center;
-       font-size: 1.3em;
+       /*font-size: 1.3em;*/
     }
 
     .grid_responsive {
@@ -1729,7 +1728,7 @@ a:hover {
 }
 
 .grid-nav ul li {
-    color: #878787;
+    color: #9099A4;
     position: relative;
     line-height: 1.5;
     font-size: 1em;
@@ -2065,6 +2064,7 @@ a:hover {
 
 .img-card-sm {
     width: 140px;
+    margin-right: 8px;
   }
 
   .img-card-sm img {
@@ -2335,7 +2335,7 @@ a:hover {
 
     .header-intro, .header-intro h2 {
     padding: 80px 0px 20px;
-    text-align: center;
+    text-align: left;
     height: auto;
     text-transform: none;
     font-family: Merriweather Sans, Source Sans Pro, sans-serif;
@@ -3620,7 +3620,7 @@ footer .social,
     }
 
     h3 {
-        font-size: 25px;
+        font-size: 1.3em;
         
     }
     .navbar-brand {
