@@ -75,6 +75,18 @@ body {
     position: relative;
 }
 
+/*adjustments for biggers screens*/
+@media (min-width: 1600px) {
+    .container {
+        width: 1400px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .container {
+        width: 1500px;
+    }
+}
 
 .body-white {
     background-color: white;
@@ -1533,7 +1545,7 @@ a:hover {
 .item-img-evbox2 {
     height: 600px;
     width: 100%;
-    background: url('../img/background/evbox3.jpg') no-repeat center center;
+    background: url('../img/background/Thumbnail - minimal TC – 5.jpg') no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
 }

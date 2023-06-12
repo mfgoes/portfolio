@@ -11,7 +11,7 @@ document.write("			<div class=\"col-lg-4 col-md-4 col-sm-12\">");
 document.write("				<div class=\"social\">");
 document.write("					<ul>");
 document.write("						<li>");
-document.write("							<a href=\"https:\/\/www.instagram.com\/mischades\/\"><i class=\"fab fa-instagram\"><\/i><\/a>");
+document.write("							<a href=\"https:\/\/www.instagram.com\/misho_design\/\"><i class=\"fab fa-instagram\"><\/i><\/a>");
 document.write("						<\/li>");
 document.write("						<li>");
 document.write("							<a href=\"https:\/\/www.behance.net\/mfgoes\"><i class=\"fab fa-behance\"><\/i><\/a>");
@@ -25,7 +25,7 @@ document.write("			<\/div><!-- Copy -->");
 document.write("			<div class=\"col-lg-4 col-md-4 col-sm-12\">");
 document.write("				<div class=\"copy about-footer\">");
 
-document.write("					<p>Portfolio 2021<br>Amsterdam, NL<\/p>");
+document.write("					<p>Portfolio 2023<br>Amsterdam, NL<\/p>");
 document.write("				<\/div>");
 document.write("			<\/div>");
 document.write("		<\/div>");
