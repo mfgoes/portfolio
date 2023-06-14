@@ -1,0 +1,16 @@
+.casestudy-intro {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.casestudy-intro p {
+    color: var(--col-darkmode-subtle);
+}
+
+.casestudy-intro .label {
+    color: var(--col-darkmode-label);
+    display: block;
+    text-align: left;
+    padding-left: 0px;
+}

@@ -59,6 +59,9 @@ body {
     --color-link-hover: #ec0a45;
     --color-content-title-sub: #CCCCCC;
     --bs-primary-bg-subtle: #e8ecf3;
+    --col-darkmode-subtle: #EDEDE8; 
+    --col-darkmode-label: #AFA8A8; 
+    
     color: var(--color-text);
     background-color: var(--color-bg);
     --cursor-stroke: #ec0a45;
