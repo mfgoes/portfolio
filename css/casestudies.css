@@ -13,17 +13,20 @@
 
 .casestudy-intro p {
     color: var(--col-darkmode-subtle);
+    font-size: 1em;
+    font-family: Poppins, Source Sans Pro, sans-serif;
 }
 
 .casestudy-intro .label {
     color: var(--col-darkmode-label);
+    font-family: Poppins, Source Sans Pro, sans-serif;
     opacity: 0.6;
     display: block;
     text-align: left;
     padding-left: 0px;
-    font-size: 1em;
+    font-size: 0.8em;
     font-weight: 500;
-    margin-top: 0px;
+    margin-top: 10px;
 }
 
 .content-center {

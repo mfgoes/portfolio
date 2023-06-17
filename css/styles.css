@@ -96,6 +96,10 @@ body {
     background-color: white;
 }
 
+.body-graylight {
+    background-color: #edede8;
+}
+
 
 /*new cards for mendix page*/
 
@@ -190,7 +194,7 @@ h3 {
 }
 
 h1 {
-    color: var(--color-text-gray);
+    color: white;
     font-size: 72px;
     line-height: 1.2;
 }
@@ -211,7 +215,7 @@ h2 {
     margin-top: 20px;
     margin-bottom: 15px;
     font-weight: 500;
-    font-size: 2.2em;
+    font-size: 2em;
 }
 
 .article {
@@ -1696,10 +1700,7 @@ a:hover {
     /* Item Text */
 
     .item-text p {
-        color: #9099A4;
-        margin-bottom: 15px;
-        font-weight: 600;
-        /*font-size: 0.8em;*/
+        font-size: 1em;
     }
     .item-text a {
         margin-top: 5px;
@@ -3680,7 +3681,7 @@ footer .social,
         font-size: 40px;
     }
     h2 {
-        font-size: 1.2em;
+        font-size: 1.7em;
     }
     /* Title */
     .title span {
