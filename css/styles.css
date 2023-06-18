@@ -79,6 +79,7 @@ body {
     position: relative;
 }
 
+
 /*adjustments for biggers screens*/
 @media (min-width: 1600px) {
     .container {

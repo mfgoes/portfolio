@@ -54,7 +54,36 @@
 
 <body >
     <!-- Start Navbar -->
-            <script type="text/javascript" src="includes/menu_snippet.js"></script>
+            <!--<script type="text/javascript" src="includes/menu_snippet.js"></script>-->
+
+            <nav class="navbar navbar-default navbar-fixed-new">
+                <div class="container no-padding">
+                    <div class="between-space">
+                        <a href="index.html"><img class="navbar-brand" src="img/logo/logo.svg" alt="logo"></a>
+                        <button class="navbar-toggler menu-icon" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <div class="navbar-toggle collapsed menu-icon" data-toggle="collapse" data-target="#menu" aria-expanded="false" role="button">
+                                <div class="bar half start"></div>
+                                <div class="bar"></div>
+                                <div class="bar half end"></div>
+                            </div>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                <a class="nav-link" href="index.html">My Work </a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link disabled" href="about.html#contact-section">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+              </nav>
     <!-- End Navbar -->
 
     
@@ -345,7 +374,25 @@
     <script type="text/javascript" src="js/slick.min.js"></script>
     <script type="text/javascript" src="js/lightbox.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
-
+    <script>
+        $(document).ready(function() {
+          $(".navbar-toggler").click(function() {
+            $(".collapse").collapse("toggle");
+          });
+        });
+      </script>
+      <script>
+        window.addEventListener('scroll', function() {
+          const navbar = document.querySelector('.navbar');
+          const scrollPosition = window.pageYOffset;
+    
+          if (scrollPosition > 0) {
+            navbar.classList.add('navbar-scroll');
+          } else {
+            navbar.classList.remove('navbar-scroll');
+          }
+        });
+      </script>
    
 
 </body>
