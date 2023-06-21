@@ -69,20 +69,18 @@
     margin-right: auto;
 }
 
-.between-space {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
+  .between-space {
+      display: flex;
+      justify-content: space-between;
+      width: 100%; 
+  }
 
 
   @media (max-width: 767px) {
-
     .between-space {
         display: inline-block;    
     }
-
-  .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse, .navbar-fixed-top .navbar-collapse:before {
+    .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse, .navbar-fixed-top .navbar-collapse:before {
       border: 0;
       margin: 0;
       padding: 80px 0 10px 80px;
@@ -96,15 +94,26 @@
       -webkit-box-shadow: none;
       box-shadow: none;
       display: block;
+      transition: 0s;
+    }
+    .navbar-fixed-new ul {
+      position:static;
+      display: inline;
+      transition: 0s;
+    }
+
+  .navbar-collapse {
+    background-color: var(--color-bg);
   }
 
-  .navbar-fixed-new ul {
-    position:static;
-    display: inline;
+  .navbar-fixed-new .navbar-nav > li > a {
+    -webkit-transition: all 0s;
+    -o-transition: 0s;
+    transition: 0s;
   }
 
   .show {
-    margin-top: 70px;
+    padding-top: 70px;
   }
 
   .navbar-toggler {
@@ -112,24 +121,28 @@
     position: fixed;
     right: 15px;
   }
-  
 }
+
+/*BASIC NAVBAR STUFF*/
+
+
 .navbar-fixed-new {
-    padding: 0.5rem 1rem;
+    padding: 0px; /*0.5rem 1rem;*/
     position: fixed;
     top: 0px;
     width: 100%;
     z-index: 2000;
     background-color: transparent;
-    padding-top: 12px;
-}
+    padding-top: 0px;
+  }  
+
+  .navbar-fixed-new .navbar-brand, .navbar-fixed-new .navbar-toggler {
+    margin-top: 15px;
+  }
+
 
 .navbar-fixed-new li {
     list-style-type: none;  
-}
-
-.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
-    margin-left: 0px;
 }
 
 
@@ -140,5 +153,5 @@
 
 .navbar-scroll {
     background-color: var(--color-bg);
-  }
+}
 

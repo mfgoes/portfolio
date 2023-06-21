@@ -3672,6 +3672,7 @@ footer .social,
     }
         .top-nav {
         padding: 0px 0;
+        padding-top: 10px;
     }
 
 }
