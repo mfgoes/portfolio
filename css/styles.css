@@ -98,7 +98,7 @@ body {
 }
 
 .body-graylight {
-    background-color: #edede8;
+    background-color: #fbfbfb;
 }
 
 
@@ -2047,6 +2047,7 @@ a:hover {
     -webkit-background-size: cover;
     background-size: cover;
 }
+
 
 .nopadding {
     padding-left: 0px;
